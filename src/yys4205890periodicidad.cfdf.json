@@ -11,6 +11,22 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Periodicity",
+      "fieldTooltip": "Periodicity",
+      "fieldHeading": "Periodicity"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Periodicity (Descr.)",
+      "fieldTooltip": "Periodicity (Descr.)",
+      "fieldHeading": "Periodicity (Descr.)"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
@@ -46,9 +62,19 @@
   ],
   "codeListDescriptions": [
     {
+      "language": "en",
+      "code": "01",
+      "description": "Daily"
+    },
+    {
       "language": "es",
       "code": "01",
       "description": "Diario"
+    },
+    {
+      "language": "en",
+      "code": "02",
+      "description": "Weekly"
     },
     {
       "language": "es",
@@ -56,14 +82,29 @@
       "description": "Semanal"
     },
     {
+      "language": "en",
+      "code": "03",
+      "description": "Biweekly"
+    },
+    {
       "language": "es",
       "code": "03",
       "description": "Quincenal"
     },
     {
+      "language": "en",
+      "code": "04",
+      "description": "Monthly"
+    },
+    {
       "language": "es",
       "code": "04",
       "description": "Mensual"
+    },
+    {
+      "language": "en",
+      "code": "05",
+      "description": "Bimonthly"
     },
     {
       "language": "es",

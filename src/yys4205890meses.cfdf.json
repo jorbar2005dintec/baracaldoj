@@ -11,6 +11,22 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Months",
+      "fieldTooltip": "Months",
+      "fieldHeading": "Months"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Months (Descr.)",
+      "fieldTooltip": "Months (Descr.)",
+      "fieldHeading": "Months (Descr.)"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
@@ -85,9 +101,19 @@
   ],
   "codeListDescriptions": [
     {
+      "language": "en",
+      "code": "01",
+      "description": "January"
+    },
+    {
       "language": "es",
       "code": "01",
       "description": "Enero"
+    },
+    {
+      "language": "en",
+      "code": "02",
+      "description": "February"
     },
     {
       "language": "es",
@@ -95,9 +121,19 @@
       "description": "Febrero"
     },
     {
+      "language": "en",
+      "code": "03",
+      "description": "March"
+    },
+    {
       "language": "es",
       "code": "03",
       "description": "Marzo"
+    },
+    {
+      "language": "en",
+      "code": "04",
+      "description": "April"
     },
     {
       "language": "es",
@@ -105,9 +141,19 @@
       "description": "Abril"
     },
     {
+      "language": "en",
+      "code": "05",
+      "description": "May"
+    },
+    {
       "language": "es",
       "code": "05",
       "description": "Mayo"
+    },
+    {
+      "language": "en",
+      "code": "06",
+      "description": "June"
     },
     {
       "language": "es",
@@ -115,9 +161,19 @@
       "description": "Junio"
     },
     {
+      "language": "en",
+      "code": "07",
+      "description": "July"
+    },
+    {
       "language": "es",
       "code": "07",
       "description": "Julio"
+    },
+    {
+      "language": "en",
+      "code": "08",
+      "description": "August"
     },
     {
       "language": "es",
@@ -125,9 +181,19 @@
       "description": "Agosto"
     },
     {
+      "language": "en",
+      "code": "09",
+      "description": "September"
+    },
+    {
       "language": "es",
       "code": "09",
       "description": "Septiembre"
+    },
+    {
+      "language": "en",
+      "code": "10",
+      "description": "October"
     },
     {
       "language": "es",
@@ -135,9 +201,19 @@
       "description": "Octubre"
     },
     {
+      "language": "en",
+      "code": "11",
+      "description": "November"
+    },
+    {
       "language": "es",
       "code": "11",
       "description": "Noviembre"
+    },
+    {
+      "language": "en",
+      "code": "12",
+      "description": "December"
     },
     {
       "language": "es",
@@ -145,9 +221,19 @@
       "description": "Diciembre"
     },
     {
+      "language": "en",
+      "code": "13",
+      "description": "January-February"
+    },
+    {
       "language": "es",
       "code": "13",
       "description": "Enero-Febrero"
+    },
+    {
+      "language": "en",
+      "code": "14",
+      "description": "March-April"
     },
     {
       "language": "es",
@@ -155,9 +241,19 @@
       "description": "Marzo-Abril"
     },
     {
+      "language": "en",
+      "code": "15",
+      "description": "May-June"
+    },
+    {
       "language": "es",
       "code": "15",
       "description": "Mayo-Junio"
+    },
+    {
+      "language": "en",
+      "code": "16",
+      "description": "July-August"
     },
     {
       "language": "es",
@@ -165,9 +261,19 @@
       "description": "Julio-Agosto"
     },
     {
+      "language": "en",
+      "code": "17",
+      "description": "September-October"
+    },
+    {
       "language": "es",
       "code": "17",
       "description": "Septiembre-Octubre"
+    },
+    {
+      "language": "en",
+      "code": "18",
+      "description": "November-December"
     },
     {
       "language": "es",
