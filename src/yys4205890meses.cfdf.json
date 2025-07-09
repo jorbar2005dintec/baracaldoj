@@ -1,0 +1,245 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890Meses",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890Meses",
+  "type": "list",
+  "typeDetails": {
+    "length": 3
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Meses",
+      "fieldTooltip": "Meses",
+      "fieldHeading": "Meses"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Meses (Descr.)",
+      "fieldTooltip": "Meses (Descr.)",
+      "fieldHeading": "Meses (Descr.)"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "01"
+    },
+    {
+      "code": "02"
+    },
+    {
+      "code": "03"
+    },
+    {
+      "code": "04"
+    },
+    {
+      "code": "05"
+    },
+    {
+      "code": "06"
+    },
+    {
+      "code": "07"
+    },
+    {
+      "code": "08"
+    },
+    {
+      "code": "09"
+    },
+    {
+      "code": "10"
+    },
+    {
+      "code": "11"
+    },
+    {
+      "code": "12"
+    },
+    {
+      "code": "13"
+    },
+    {
+      "code": "14"
+    },
+    {
+      "code": "15"
+    },
+    {
+      "code": "16"
+    },
+    {
+      "code": "17"
+    },
+    {
+      "code": "18"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "es",
+      "code": "01",
+      "description": "Enero"
+    },
+    {
+      "language": "es",
+      "code": "02",
+      "description": "Febrero"
+    },
+    {
+      "language": "es",
+      "code": "03",
+      "description": "Marzo"
+    },
+    {
+      "language": "es",
+      "code": "04",
+      "description": "Abril"
+    },
+    {
+      "language": "es",
+      "code": "05",
+      "description": "Mayo"
+    },
+    {
+      "language": "es",
+      "code": "06",
+      "description": "Junio"
+    },
+    {
+      "language": "es",
+      "code": "07",
+      "description": "Julio"
+    },
+    {
+      "language": "es",
+      "code": "08",
+      "description": "Agosto"
+    },
+    {
+      "language": "es",
+      "code": "09",
+      "description": "Septiembre"
+    },
+    {
+      "language": "es",
+      "code": "10",
+      "description": "Octubre"
+    },
+    {
+      "language": "es",
+      "code": "11",
+      "description": "Noviembre"
+    },
+    {
+      "language": "es",
+      "code": "12",
+      "description": "Diciembre"
+    },
+    {
+      "language": "es",
+      "code": "13",
+      "description": "Enero-Febrero"
+    },
+    {
+      "language": "es",
+      "code": "14",
+      "description": "Marzo-Abril"
+    },
+    {
+      "language": "es",
+      "code": "15",
+      "description": "Mayo-Junio"
+    },
+    {
+      "language": "es",
+      "code": "16",
+      "description": "Julio-Agosto"
+    },
+    {
+      "language": "es",
+      "code": "17",
+      "description": "Septiembre-Octubre"
+    },
+    {
+      "language": "es",
+      "code": "18",
+      "description": "Noviembre-Diciembre"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_BILLINGDOCUMENTFS",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PL_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PRELIMBILLGDOCOBJPG",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PRELIMBILLGDOCWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_OP_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "SD_BILLINGDOC_GUI",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ]
+}

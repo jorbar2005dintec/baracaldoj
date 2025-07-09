@@ -1,0 +1,47 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890DetallesAct",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890DetallesAct",
+  "type": "text",
+  "typeDetails": {
+    "length": 500
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Detalles Activo Fijo",
+      "fieldTooltip": "Detalles Activo Fijo",
+      "fieldHeading": "Detalles Activo Fijo"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "FAA_ASSET_MASTER_DATA"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_ASSETTP",
+      "businessContext": "FAA_ASSET_MASTER_DATA"
+    },
+    {
+      "cdsViewName": "I_ASSETTP",
+      "businessContext": "FAA_ASSET_MASTER_DATA"
+    },
+    {
+      "cdsViewName": "I_FIXEDASSET",
+      "businessContext": "FAA_ASSET_MASTER_DATA"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "FAA_MD_MANAGE_SRV 0001",
+      "businessContext": "FAA_ASSET_MASTER_DATA"
+    }
+  ]
+}

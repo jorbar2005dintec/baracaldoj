@@ -1,0 +1,632 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890UsoCFDISales",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890UsoCFDISales",
+  "type": "list",
+  "typeDetails": {
+    "length": 4
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Uso de CFDI",
+      "fieldTooltip": "Uso de CFDI",
+      "fieldHeading": "Uso de CFDI"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Uso de CFDI (Descr.)",
+      "fieldTooltip": "Uso de CFDI (Descr.)",
+      "fieldHeading": "Uso de CFDI (Descr.)"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "CN0"
+    },
+    {
+      "code": "CP01"
+    },
+    {
+      "code": "D01"
+    },
+    {
+      "code": "D02"
+    },
+    {
+      "code": "D03"
+    },
+    {
+      "code": "D04"
+    },
+    {
+      "code": "D05"
+    },
+    {
+      "code": "D06"
+    },
+    {
+      "code": "D07"
+    },
+    {
+      "code": "D08"
+    },
+    {
+      "code": "D09"
+    },
+    {
+      "code": "D10"
+    },
+    {
+      "code": "G01"
+    },
+    {
+      "code": "G02"
+    },
+    {
+      "code": "G03"
+    },
+    {
+      "code": "I01"
+    },
+    {
+      "code": "I02"
+    },
+    {
+      "code": "I03"
+    },
+    {
+      "code": "I04"
+    },
+    {
+      "code": "I05"
+    },
+    {
+      "code": "I06"
+    },
+    {
+      "code": "I07"
+    },
+    {
+      "code": "I08"
+    },
+    {
+      "code": "S01"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "es",
+      "code": "CN0",
+      "description": "Nómina"
+    },
+    {
+      "language": "es",
+      "code": "CP01",
+      "description": "Pagos"
+    },
+    {
+      "language": "es",
+      "code": "D01",
+      "description": "Honorarios médicos, dentales y gastos hospitalarios"
+    },
+    {
+      "language": "es",
+      "code": "D02",
+      "description": "Gastos médicos por incapacidad o discapacidad"
+    },
+    {
+      "language": "es",
+      "code": "D03",
+      "description": "Gastos funerales"
+    },
+    {
+      "language": "es",
+      "code": "D04",
+      "description": "Donativos"
+    },
+    {
+      "language": "es",
+      "code": "D05",
+      "description": "Intereses reales efectivamente pagados por créditos hipoteca"
+    },
+    {
+      "language": "es",
+      "code": "D06",
+      "description": "Aportaciones voluntarias al SAR"
+    },
+    {
+      "language": "es",
+      "code": "D07",
+      "description": "Primas por seguros de gastos médicos"
+    },
+    {
+      "language": "es",
+      "code": "D08",
+      "description": "Gastos de transportación escolar obligatoria"
+    },
+    {
+      "language": "es",
+      "code": "D09",
+      "description": "Depósitos en cuentas para el ahorro, primas que tengan como"
+    },
+    {
+      "language": "es",
+      "code": "D10",
+      "description": "Pagos por servicios educativos (colegiaturas)"
+    },
+    {
+      "language": "es",
+      "code": "G01",
+      "description": "Adquisición de mercancías"
+    },
+    {
+      "language": "es",
+      "code": "G02",
+      "description": "Devoluciones, descuentos o bonificaciones"
+    },
+    {
+      "language": "es",
+      "code": "G03",
+      "description": "Gastos en general"
+    },
+    {
+      "language": "es",
+      "code": "I01",
+      "description": "Construcciones"
+    },
+    {
+      "language": "es",
+      "code": "I02",
+      "description": "Mobiliario y equipo de oficina por inversiones"
+    },
+    {
+      "language": "es",
+      "code": "I03",
+      "description": "Equipo de transporte"
+    },
+    {
+      "language": "es",
+      "code": "I04",
+      "description": "Equipo de cómputo y accesorios"
+    },
+    {
+      "language": "es",
+      "code": "I05",
+      "description": "Dados, troqueles, moldes, matrices y herramental"
+    },
+    {
+      "language": "es",
+      "code": "I06",
+      "description": "Comunicaciones telefónicas"
+    },
+    {
+      "language": "es",
+      "code": "I07",
+      "description": "Comunicaciones satelitales"
+    },
+    {
+      "language": "es",
+      "code": "I08",
+      "description": "Otra maquinaria y equipo"
+    },
+    {
+      "language": "es",
+      "code": "S01",
+      "description": "Sin Efectos Fiscales"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "/SCWM/WAREHOUSE_REQUEST_HDR"
+    },
+    {
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_BILLINGDOCUMENTREQUEST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_BILLINGDOCUMENTREQUESTS2S",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_BILLINGDOCUMENTREQUEST_2",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_BILLINGDOCUMENT_2",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_CREDITBLOCKEDSALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_CUSTPROJSLSORD",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_PRELIMINARYBILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_SALESORDER",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_SALESORDERSIMULATION",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_SALESORDERSIMULATION_2",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_SALESORDER_2",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_BILLGDOCITMPRCGELMNTBSCDEX",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLGDOCITMPRCGELMNTBSCDEX_1",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLGDOCREQWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCITEMBASICDEX_1",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENTFS",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_CREDITMEMOREQUESTMANAGETP",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_CUSTOMERRETURNMANAGETP",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESDOCUMENTITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESORDER",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESORDERITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESQUOTATION",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESQUOTATIONITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESLSDOCREADREQUEST",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESLSDOCREQUEST",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESLSSCHEDGAGRMT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESLSSCHEDGAGRMTITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHGCREDITMEMOREQ",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHGCREDITMEMOREQITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHGCUSTOMERRETURN",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHGCUSTOMERRETURNITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHGDEBITMEMOREQ",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHGDEBITMEMOREQITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHGSLSORDWTHOUTCHRG",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHGSLSORDWTHOUTCHRGITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_PL_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PRELIMBILLGDOCOBJPG",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PRELIMBILLGDOCWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PRODUCTOBJPGSALESORDER",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SALESORDERFS",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SALESORDERMANAGE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SALESORDERQUERY",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SALESORDERWL_F1873",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SALESSCHEDGAGRMT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SALESSCHEDGAGRMTOBJPG",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SLSDOCFLFLLMNTANALYZER",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_DELIVERYDOCUMENT",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESORDERCUBE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESORDERIMPORT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESORDERTP",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_CREDITMEMOREQUESTTP",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNTP",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_PRELIMBILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_SALESORDERTP",
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "/CPD/SC_PROJ_ENGMT_CREATE_UPD_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "API_BILLING_DOCUMENT_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "API_BILLING_DOCUMENT_REQUEST_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "API_SALES_ORDER_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "API_SALES_ORDER_SIMULATION_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "API_SLS_DOC_WITH_CREDIT_BLOCK 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "MD_PRODUCT_OP_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_EBDR_MANAGE_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_F1814_SO_FS_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_F1873_SO_WL_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_CMR_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_CR_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_DMR_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_SCH_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_SD_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_SOW_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_SO_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_SQ_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_OP_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_SALESSCHEDGAGRMT_OBJPG 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_SALESSCHEDGAGRMT_WL 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_SALES_ORDER_IMPORT 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_SOFA 0001",
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedBusinessScenarios": [
+    {
+      "businessScenario": "/SCWM/LE_DLV_HEAD_2_WHR_HEAD",
+      "dataTransfer": "/SCWM/LE_DLV_HEAD_2_WHR_HEAD"
+    },
+    {
+      "businessScenario": "/SCWM/WHR_HEAD_2_LE_DLV_HEAD",
+      "dataTransfer": "/SCWM/WHR_HEAD_2_LE_DLV_HEAD"
+    },
+    {
+      "businessScenario": "SD_DELIVERY_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_DELIVERY_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_DELIVERY_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_DELIVERY_HEAD"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "SD_BILLINGDOC_GUI",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "dynproContext": "SD_SALESDOC_GUI",
+      "businessContext": "SD_SALESDOC"
+    }
+  ]
+}
