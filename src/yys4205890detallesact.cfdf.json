@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Fixed Asset Details",
+      "fieldTooltip": "Fixed Asset Details",
+      "fieldHeading": "Fixed Asset Details"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

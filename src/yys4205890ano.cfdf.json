@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Year",
+      "fieldTooltip": "Year",
+      "fieldHeading": "Year"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

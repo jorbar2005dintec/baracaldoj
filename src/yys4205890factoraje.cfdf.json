@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Factoring",
+      "fieldTooltip": "Factoring",
+      "fieldHeading": "Factoring"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

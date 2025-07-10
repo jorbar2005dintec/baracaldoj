@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Factoring Customer ID",
+      "fieldTooltip": "Factoring Customer ID",
+      "fieldHeading": "Factoring Customer ID"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
