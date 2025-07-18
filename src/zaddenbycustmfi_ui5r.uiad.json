@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "AddendaBycustomer",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "addendabycustomer"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_14C1DE173202FE77FF9991DC7C8658DA695374A7_TM",
+    "semanticObject": "AddendaByCustomer",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_14C1DE173202FE77FF9991DC7C8658DA695374A7_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "AddendaBycustomer",
+        "subtitle": "Addenda By custom conf"
+      }
+    }
+  ]
+}

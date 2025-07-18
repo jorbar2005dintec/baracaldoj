@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>Main Class Addendas</SHORTTEXT>
+   <SPOT_NAME>ES_EDOCUMENT_MX_CLOUD</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>ES_EDOCUMENT_MX_CLOUD</SPOT_NAME>
+     <BADI_NAME>EDOC_MX_FILL_CUSTOM_DATA_V4</BADI_NAME>
+     <IMPL_NAME>ZEDOC_MX_FILL_ADDENDAS</IMPL_NAME>
+     <IMPL_CLASS>ZEDOC_MX_FILL_CUSTOM_DATA</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+     <IS_DEFAULT>X</IS_DEFAULT>
+     <IMPL_SHORTTEXT>Addendas Dintec</IMPL_SHORTTEXT>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

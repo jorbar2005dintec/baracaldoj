@@ -1,0 +1,45 @@
+managed implementation in class ZBP_R_ADDENDABYCUSTOM001 unique;
+strict ( 2 );
+with draft;
+define behavior for ZR_ADDENDABYCUSTOM001 alias ADDENDABYCUSTM
+persistent table ZADDENDABYCUSTOM
+draft table ZADDNDBCSTM001_D
+etag master Locallastchanged
+lock master total etag Lastchangedat
+authorization master( global )
+
+{
+  field ( mandatory : create )
+   Customer;
+
+  field ( readonly )
+   Createdby,
+   LastChangedBy,
+   Lastchangedat,
+   Locallastchanged;
+
+  field ( readonly : update )
+   Customer;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZADDENDABYCUSTOM
+  {
+    Customer = customer;
+    Addendatype = addendatype;
+    Createdby = createdby;
+    Createdat = createdat;
+    LastChangedBy = last_changed_by;
+    Lastchangedat = lastchangedat;
+    Locallastchanged = locallastchanged;
+  }
+}

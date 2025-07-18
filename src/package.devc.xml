@@ -3,8 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>Dintec Billing Template</CTEXT>
-    <SRV_CHECK>X</SRV_CHECK>
+    <CTEXT>Billing Addendas Dintec</CTEXT>
    </DEVC>
   </asx:values>
  </asx:abap>

@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_ADDENDABYCUSTOM'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_ADDENDABYCUSTOM'
+  }
+}
+define service ZUI_ADDENDABYCUSTOM_O4 provider contracts odata_v4_ui {
+  expose ZC_ADDENDABYCUSTOM as ZC_ADDENDABYCUSTOM_DM;
+}
