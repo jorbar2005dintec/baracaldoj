@@ -99,7 +99,7 @@ CLASS ZEDOC_MX_PEDIMENTO IMPLEMENTATION.
       ENDIF.
 
 
-
+      check w_l_pedimento is not initial.
 
       APPEND w_l_pedimento TO is_l_pedimento.
 

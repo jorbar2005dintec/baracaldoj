@@ -28,7 +28,8 @@ ENDCLASS.
 
 
 
-CLASS zedoc_mx_fill_concepto_inv_it IMPLEMENTATION.
+CLASS ZEDOC_MX_FILL_CONCEPTO_INV_IT IMPLEMENTATION.
+
 
   METHOD get_descripcion_global.
 
@@ -73,6 +74,7 @@ CLASS zedoc_mx_fill_concepto_inv_it IMPLEMENTATION.
 
 
   ENDMETHOD.
+
 
   METHOD get_long_description.
 
@@ -153,13 +155,14 @@ CLASS zedoc_mx_fill_concepto_inv_it IMPLEMENTATION.
 
     IF w_l_billingdocument-pord EQ 'X'.
 
-      w_l_purchaseorder = zedoc_mx_addendas_get_data=>get_purchaseorder( salesdocumentnum = billingdocumentnum ).
+*      w_l_purchaseorder = zedoc_mx_addendas_get_data=>get_purchaseorder( salesdocumentnum = billingdocumentnum ).
 
       CONCATENATE item-descripcion ' OC:  ' w_l_purchaseorder INTO item-descripcion.
 
     ENDIF.
 
   ENDMETHOD.
+
 
   METHOD if_badi_concepto_invoice_item~fill_line_item.
 
