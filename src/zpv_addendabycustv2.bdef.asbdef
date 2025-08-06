@@ -1,0 +1,20 @@
+projection implementation in class ZPVB_ADDENDABYCUSTV2 unique;
+strict ( 2 );
+extensible;
+use draft;
+use side effects;
+define behavior for ZPV_ADDENDABYCUSTV2 alias ZCD_ADDENDABYCUSTOMV2
+extensible
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+}

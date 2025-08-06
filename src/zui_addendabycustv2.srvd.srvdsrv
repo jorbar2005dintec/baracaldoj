@@ -1,0 +1,12 @@
+@EndUserText: {
+  label: 'ServDefZPV_ADDENDABYCUSTV2'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZPV_ADDENDABYCUSTV2'
+  }
+}
+define service ZUI_ADDENDABYCUSTV2
+  provider contracts odata_v4_ui {
+  expose ZPV_ADDENDABYCUSTV2 as ZCD_ADDENDABYCUSTOMV2;
+}

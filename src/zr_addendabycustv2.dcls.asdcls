@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZR_ADDENDABYCUSTV2'
+@MappingRole: true
+define role ZR_ADDENDABYCUSTV2 {
+  grant select on ZR_ADDENDABYCUSTV2
+  where TRUE;
+}

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "AddendaByCustomer"
+  },
+  "ui5AppDetails": {
+    "appId": "addendabycustm.project1"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_08C6FC8FDE1BA8058F4DB5E767CA9EBB25E3FE2D_TM",
+    "semanticObject": "AddendaByCustomer",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_08C6FC8FDE1BA8058F4DB5E767CA9EBB25E3FE2D_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "AddendaByCustomer",
+        "subtitle": "Addenda By custom conf"
+      }
+    }
+  ]
+}
