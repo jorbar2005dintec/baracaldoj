@@ -1,0 +1,137 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890ClavProSerCP",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890ClavProSerCP",
+  "type": "text",
+  "typeDetails": {
+    "length": 30
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "ClaveProdServ CP",
+      "fieldTooltip": "ClaveProdServ CP",
+      "fieldHeading": "ClaveProdServ CP"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "PRODUCT"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_PRODUCT",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTPROCUREMENT",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTQM",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTSALES",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTSCM",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTSTORAGE",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCT",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTPROCUREMENTWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTQMWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTSALESTP_2",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTSALESWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTSCM",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTSCMWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTSTORAGEWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTTP_2",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "P_PRDSCM_MATKEY",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "R_PRODUCTSALESTP",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "R_PRODUCTTP",
+      "businessContext": "PRODUCT"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductprocurementType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductqmType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductsalesType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductscmType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductstorageType",
+      "businessContext": "PRODUCT"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "RFM_PRODUCT_GUI",
+      "businessContext": "PRODUCT"
+    }
+  ]
+}

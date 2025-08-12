@@ -1,0 +1,181 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890TipoMatPelig",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890TipoMatPelig",
+  "type": "list",
+  "typeDetails": {
+    "length": 6
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Tipo material peligroso",
+      "fieldTooltip": "Tipo material peligroso",
+      "fieldHeading": "Tipo material peligroso"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Tipo material peligroso (Descr.)",
+      "fieldTooltip": "Tipo material peligroso (Descr.)",
+      "fieldHeading": "Tipo material peligroso (Descr.)"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "0"
+    },
+    {
+      "code": "01-No"
+    },
+    {
+      "code": "01-Si"
+    },
+    {
+      "code": "1"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "es",
+      "code": "0",
+      "description": "No"
+    },
+    {
+      "language": "es",
+      "code": "01-No",
+      "description": "0,1-No"
+    },
+    {
+      "language": "es",
+      "code": "01-Si",
+      "description": "0,1-Sí"
+    },
+    {
+      "language": "es",
+      "code": "1",
+      "description": "Sí"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "PRODUCT"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_PRODUCT",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCT",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTPROCUREMENT",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTQM",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTSALES",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTSCM",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "C_PRODUCTSTORAGE",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCT",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTPROCUREMENTWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTQMWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTSALES",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTSALESWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTSCMWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTSTORAGEWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTTP_2",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "I_PRODUCTWD",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "P_PRDSCM_MATKEY",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "cdsViewName": "R_PRODUCTTP",
+      "businessContext": "PRODUCT"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_PRODUCT_SRV 0001",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductprocurementType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductqmType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductsalesType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductscmType",
+      "businessContext": "PRODUCT"
+    },
+    {
+      "odataServiceKey": "MD_C_PRODUCT_MAINTAIN_SRV 0001 C_ProductstorageType",
+      "businessContext": "PRODUCT"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "RFM_PRODUCT_GUI",
+      "businessContext": "PRODUCT"
+    }
+  ]
+}

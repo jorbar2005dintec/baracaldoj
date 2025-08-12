@@ -1,0 +1,67 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890FechaSalida",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890FechaSalida",
+  "type": "date",
+  "typeDetails": {},
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Fecha de salida",
+      "fieldTooltip": "Fecha de salida",
+      "fieldHeading": "Fecha de salida"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_OUTBDELIVERYHEADER_1",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "C_OUTBOUNDDELIVERYFS",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "I_DELIVERYDOCUMENT",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "I_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_OUTBOUND_DELIVERY_SRV 0002",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "DELIVERY_GUI",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ]
+}
