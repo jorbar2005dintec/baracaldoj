@@ -2,12 +2,12 @@
   "formatVersion": "2",
   "header": {
     "description": "YYS4205890FiguraCpVh",
-    "originalLanguage": "es"
+    "originalLanguage": "en"
   },
   "externalName": "YYS4205890FiguraCpVh",
   "type": "listBasedOnCdsView",
   "typeDetails": {
-    "valueHelpView": "YY1_FIGURACPBOVH"
+    "valueHelpView": "YY1_FIGURACPVH"
   },
   "uiTexts": [
     {
@@ -16,9 +16,7 @@
       "componentIdentifier": "",
       "fieldLabel": "FiguraCpVh",
       "fieldTooltip": "FiguraCpVh",
-      "fieldHeading": "FiguraCpVh",
-      "fieldMediumLabel": "FiguraCpVh",
-      "fieldShortLabel": "FiguraCpVh"
+      "fieldHeading": "FiguraCpVh"
     },
     {
       "language": "es",
