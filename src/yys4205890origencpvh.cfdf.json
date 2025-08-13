@@ -16,7 +16,9 @@
       "componentIdentifier": "",
       "fieldLabel": "OrigenCpVh",
       "fieldTooltip": "OrigenCpVh",
-      "fieldHeading": "OrigenCpVh"
+      "fieldHeading": "OrigenCpVh",
+      "fieldMediumLabel": "OrigenCpVh",
+      "fieldShortLabel": "OrigenCpVh"
     },
     {
       "language": "es",
@@ -24,7 +26,9 @@
       "componentIdentifier": "",
       "fieldLabel": "OrigenCpVh",
       "fieldTooltip": "OrigenCpVh",
-      "fieldHeading": "OrigenCpVh"
+      "fieldHeading": "OrigenCpVh",
+      "fieldMediumLabel": "OrigenCpVh",
+      "fieldShortLabel": "OrigenCpVh"
     }
   ],
   "extendedBusinessContexts": [

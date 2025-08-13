@@ -16,7 +16,9 @@
       "componentIdentifier": "",
       "fieldLabel": "FiguraCpVh",
       "fieldTooltip": "FiguraCpVh",
-      "fieldHeading": "FiguraCpVh"
+      "fieldHeading": "FiguraCpVh",
+      "fieldMediumLabel": "FiguraCpVh",
+      "fieldShortLabel": "FiguraCpVh"
     },
     {
       "language": "es",

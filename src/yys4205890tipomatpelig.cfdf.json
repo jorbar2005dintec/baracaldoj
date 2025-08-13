@@ -16,7 +16,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Type of Hazardous Material",
       "fieldTooltip": "Type of Hazardous Material",
-      "fieldHeading": "Type of Hazardous Material"
+      "fieldHeading": "Type of Hazardous Material",
+      "fieldMediumLabel": "Type of Hazardous Ma",
+      "fieldShortLabel": "Type of Ha"
     },
     {
       "language": "en",
@@ -24,7 +26,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Type of Hazardous Material (Descr.)",
       "fieldTooltip": "Type of Hazardous Material (Descr.)",
-      "fieldHeading": "Type of Hazardous Material (Descr.)"
+      "fieldHeading": "Type of Hazardous Material (Descr.)",
+      "fieldMediumLabel": "Type of Hazardous Ma",
+      "fieldShortLabel": "Type of Ha"
     },
     {
       "language": "es",
@@ -61,7 +65,7 @@
     {
       "language": "en",
       "code": "0",
-      "description": ""
+      "description": "No"
     },
     {
       "language": "es",
@@ -71,7 +75,7 @@
     {
       "language": "en",
       "code": "01-No",
-      "description": ""
+      "description": "0,1-No"
     },
     {
       "language": "es",
@@ -81,7 +85,7 @@
     {
       "language": "en",
       "code": "01-Si",
-      "description": ""
+      "description": "0,1-Yes"
     },
     {
       "language": "es",
@@ -91,7 +95,7 @@
     {
       "language": "en",
       "code": "1",
-      "description": ""
+      "description": "Yes"
     },
     {
       "language": "es",
