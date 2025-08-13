@@ -2,12 +2,12 @@
   "formatVersion": "2",
   "header": {
     "description": "YYS4205890DestinoCpVh",
-    "originalLanguage": "es"
+    "originalLanguage": "en"
   },
   "externalName": "YYS4205890DestinoCpVh",
   "type": "listBasedOnCdsView",
   "typeDetails": {
-    "valueHelpView": "YY1_DESTINOCARTAPORTEVH"
+    "valueHelpView": "YY1_DESTINOCPVH"
   },
   "uiTexts": [
     {
