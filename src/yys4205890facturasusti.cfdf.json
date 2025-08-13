@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Substitution Invoice",
+      "fieldTooltip": "Substitution Invoice",
+      "fieldHeading": "Substitution Invoice"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
