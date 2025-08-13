@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Date of Arrival",
+      "fieldTooltip": "Date of Arrival",
+      "fieldHeading": "Date of Arrival"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

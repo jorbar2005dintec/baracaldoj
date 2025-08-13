@@ -11,6 +11,22 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Type of Hazardous Material",
+      "fieldTooltip": "Type of Hazardous Material",
+      "fieldHeading": "Type of Hazardous Material"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Type of Hazardous Material (Descr.)",
+      "fieldTooltip": "Type of Hazardous Material (Descr.)",
+      "fieldHeading": "Type of Hazardous Material (Descr.)"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
@@ -43,9 +59,19 @@
   ],
   "codeListDescriptions": [
     {
+      "language": "en",
+      "code": "0",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "0",
       "description": "No"
+    },
+    {
+      "language": "en",
+      "code": "01-No",
+      "description": ""
     },
     {
       "language": "es",
@@ -53,9 +79,19 @@
       "description": "0,1-No"
     },
     {
+      "language": "en",
+      "code": "01-Si",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "01-Si",
       "description": "0,1-Sí"
+    },
+    {
+      "language": "en",
+      "code": "1",
+      "description": ""
     },
     {
       "language": "es",

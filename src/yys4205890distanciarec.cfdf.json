@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Distance Traveled",
+      "fieldTooltip": "Distance Traveled",
+      "fieldHeading": "Distance Traveled"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

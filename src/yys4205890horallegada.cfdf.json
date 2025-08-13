@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Time of Arrival",
+      "fieldTooltip": "Time of Arrival",
+      "fieldHeading": "Time of Arrival"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

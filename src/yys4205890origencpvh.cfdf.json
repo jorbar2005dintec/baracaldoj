@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "OrigenCpVh",
+      "fieldTooltip": "OrigenCpVh",
+      "fieldHeading": "OrigenCpVh"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

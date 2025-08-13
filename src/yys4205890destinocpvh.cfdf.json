@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "DestinoCpVh",
+      "fieldTooltip": "DestinoCpVh",
+      "fieldHeading": "DestinoCpVh"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Product/Service Code CP",
+      "fieldTooltip": "Product/Service Code CP",
+      "fieldHeading": "Product/Service Code CP"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

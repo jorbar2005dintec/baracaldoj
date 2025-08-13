@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "AutotransporteCpVh",
+      "fieldTooltip": "AutotransporteCpVh",
+      "fieldHeading": "AutotransporteCpVh"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

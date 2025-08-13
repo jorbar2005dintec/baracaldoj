@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "FiguraCpVh",
+      "fieldTooltip": "FiguraCpVh",
+      "fieldHeading": "FiguraCpVh"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Date of Release",
+      "fieldTooltip": "Date of Release",
+      "fieldHeading": "Date of Release"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Carta Porte",
+      "fieldTooltip": "Carta Porte",
+      "fieldHeading": "Carta Porte"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
