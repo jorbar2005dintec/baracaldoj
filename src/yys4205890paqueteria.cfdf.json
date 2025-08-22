@@ -11,6 +11,22 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Transport Company",
+      "fieldTooltip": "Transport Company",
+      "fieldHeading": "Transport Company"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Transport Company",
+      "fieldTooltip": "Transport Company",
+      "fieldHeading": "Transport Company"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
@@ -46,9 +62,19 @@
   ],
   "codeListDescriptions": [
     {
+      "language": "en",
+      "code": "101",
+      "description": "UPS"
+    },
+    {
       "language": "es",
       "code": "101",
       "description": "UPS"
+    },
+    {
+      "language": "en",
+      "code": "102",
+      "description": "DHL"
     },
     {
       "language": "es",
@@ -56,14 +82,29 @@
       "description": "DHL"
     },
     {
-      "language": "es",
+      "language": "en",
       "code": "103",
       "description": "FEDEX"
     },
     {
       "language": "es",
+      "code": "103",
+      "description": "FEDEX"
+    },
+    {
+      "language": "en",
       "code": "104",
       "description": "ESTAFETA"
+    },
+    {
+      "language": "es",
+      "code": "104",
+      "description": "ESTAFETA"
+    },
+    {
+      "language": "en",
+      "code": "105",
+      "description": "INTERNO (DAMS)"
     },
     {
       "language": "es",
