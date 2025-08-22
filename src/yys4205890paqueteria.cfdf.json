@@ -1,0 +1,121 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890Paqueteria",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890Paqueteria",
+  "type": "list",
+  "typeDetails": {
+    "length": 3
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Paquetería",
+      "fieldTooltip": "Paquetería",
+      "fieldHeading": "Paquetería"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Paquetería (Descr.)",
+      "fieldTooltip": "Paquetería (Descr.)",
+      "fieldHeading": "Paquetería (Descr.)"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "101"
+    },
+    {
+      "code": "102"
+    },
+    {
+      "code": "103"
+    },
+    {
+      "code": "104"
+    },
+    {
+      "code": "105"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "es",
+      "code": "101",
+      "description": "UPS"
+    },
+    {
+      "language": "es",
+      "code": "102",
+      "description": "DHL"
+    },
+    {
+      "language": "es",
+      "code": "103",
+      "description": "FEDEX"
+    },
+    {
+      "language": "es",
+      "code": "104",
+      "description": "ESTAFETA"
+    },
+    {
+      "language": "es",
+      "code": "105",
+      "description": "INTERNO (DAMS)"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_CUSTOMERRETURNDELIVERYFS",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "C_OUTBOUNDDELIVERYFS",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "I_DELIVERYDOCUMENT",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "LE_SHP_OUTBOUND_DELIVERY_FS 0001",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "odataServiceKey": "LE_SHP_RETURNS_DELIVERY_FS_SRV 0001",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "DELIVERY_GUI",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ]
+}
