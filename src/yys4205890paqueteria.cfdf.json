@@ -16,7 +16,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Transport Company",
       "fieldTooltip": "Transport Company",
-      "fieldHeading": "Transport Company"
+      "fieldHeading": "Transport Company",
+      "fieldMediumLabel": "TC",
+      "fieldShortLabel": "TC"
     },
     {
       "language": "en",
@@ -24,7 +26,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Transport Company",
       "fieldTooltip": "Transport Company",
-      "fieldHeading": "Transport Company"
+      "fieldHeading": "Transport Company",
+      "fieldMediumLabel": "TC",
+      "fieldShortLabel": "TC"
     },
     {
       "language": "es",
