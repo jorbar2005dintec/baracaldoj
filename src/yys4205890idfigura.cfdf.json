@@ -11,12 +11,24 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "ID Figura",
+      "fieldTooltip": "ID Figura",
+      "fieldHeading": "ID Figura",
+      "fieldMediumLabel": "ID Figura",
+      "fieldShortLabel": "ID Figura"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
       "fieldLabel": "ID Figura",
       "fieldTooltip": "ID Figura",
-      "fieldHeading": "ID Figura"
+      "fieldHeading": "ID Figura",
+      "fieldMediumLabel": "ID Figura",
+      "fieldShortLabel": "ID Figura"
     }
   ],
   "extendedBusinessContexts": [

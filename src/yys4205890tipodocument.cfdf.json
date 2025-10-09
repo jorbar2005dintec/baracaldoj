@@ -16,7 +16,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Document Type Stellantis",
       "fieldTooltip": "Document Type Stellantis",
-      "fieldHeading": "Document Type Stellantis"
+      "fieldHeading": "Document Type Stellantis",
+      "fieldMediumLabel": "Document Type Stella",
+      "fieldShortLabel": "Document T"
     },
     {
       "language": "en",
@@ -24,7 +26,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Document Type Stellantis",
       "fieldTooltip": "Document Type Stellantis",
-      "fieldHeading": "Document Type Stellantis"
+      "fieldHeading": "Document Type Stellantis",
+      "fieldMediumLabel": "Document Type Stella",
+      "fieldShortLabel": "Document T"
     },
     {
       "language": "es",
@@ -32,7 +36,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Tipo Documento Stellantis",
       "fieldTooltip": "Tipo Documento Stellantis",
-      "fieldHeading": "Tipo Documento Stellantis"
+      "fieldHeading": "Tipo Documento Stellantis",
+      "fieldMediumLabel": "Tipo Documento Stell",
+      "fieldShortLabel": "Tipo Docum"
     },
     {
       "language": "es",
@@ -40,7 +46,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Tipo Documento Stellantis (Descr.)",
       "fieldTooltip": "Tipo Documento Stellantis (Descr.)",
-      "fieldHeading": "Tipo Documento Stellantis (Descr.)"
+      "fieldHeading": "Tipo Documento Stellantis (Descr.)",
+      "fieldMediumLabel": "Tipo Documento Stell",
+      "fieldShortLabel": "Tipo Docum"
     }
   ],
   "codeListValues": [

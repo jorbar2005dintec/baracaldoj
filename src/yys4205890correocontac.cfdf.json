@@ -16,7 +16,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Customer Email YYS420",
       "fieldTooltip": "Customer Email YYS420",
-      "fieldHeading": "Customer Email YYS420"
+      "fieldHeading": "Customer Email YYS420",
+      "fieldMediumLabel": "Customer Email YYS42",
+      "fieldShortLabel": "Customer E"
     },
     {
       "language": "es",
@@ -24,7 +26,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Correo Contacto Cliente YYS420",
       "fieldTooltip": "Correo Contacto Cliente YYS420",
-      "fieldHeading": "Correo Contacto Cliente YYS420"
+      "fieldHeading": "Correo Contacto Cliente YYS420",
+      "fieldMediumLabel": "Correo Contacto Clie",
+      "fieldShortLabel": "Correo Con"
     }
   ],
   "extendedBusinessContexts": [

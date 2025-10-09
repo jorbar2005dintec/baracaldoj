@@ -16,7 +16,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Confirmation Danone",
       "fieldTooltip": "Confirmation Danone",
-      "fieldHeading": "Confirmation Danone"
+      "fieldHeading": "Confirmation Danone",
+      "fieldMediumLabel": "Confirmación Danone",
+      "fieldShortLabel": "Confirmaci"
     },
     {
       "language": "es",
@@ -24,7 +26,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Confirmación Danone",
       "fieldTooltip": "Confirmación Danone",
-      "fieldHeading": "Confirmación Danone"
+      "fieldHeading": "Confirmación Danone",
+      "fieldMediumLabel": "Confirmación Danone",
+      "fieldShortLabel": "Confirmaci"
     }
   ],
   "extendedBusinessContexts": [
