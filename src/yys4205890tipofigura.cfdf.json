@@ -11,6 +11,22 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Transportist Type",
+      "fieldTooltip": "Transportist Type",
+      "fieldHeading": "Transportist Type"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Transportist Type",
+      "fieldTooltip": "Transportist Type",
+      "fieldHeading": "Transportist Type"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
@@ -46,9 +62,19 @@
   ],
   "codeListDescriptions": [
     {
+      "language": "en",
+      "code": "01",
+      "description": "Operador"
+    },
+    {
       "language": "es",
       "code": "01",
       "description": "Operador"
+    },
+    {
+      "language": "en",
+      "code": "02",
+      "description": "Propietario"
     },
     {
       "language": "es",
@@ -56,14 +82,29 @@
       "description": "Propietario"
     },
     {
-      "language": "es",
+      "language": "en",
       "code": "03",
       "description": "Arrendador"
     },
     {
       "language": "es",
+      "code": "03",
+      "description": "Arrendador"
+    },
+    {
+      "language": "en",
       "code": "04",
       "description": "Notificado"
+    },
+    {
+      "language": "es",
+      "code": "04",
+      "description": "Notificado"
+    },
+    {
+      "language": "en",
+      "code": "05",
+      "description": "Integrante de Coordinados"
     },
     {
       "language": "es",

@@ -153,7 +153,7 @@
     {
       "language": "en",
       "code": "AGU",
-      "description": ""
+      "description": "Aguascalientes"
     },
     {
       "language": "es",
@@ -163,7 +163,7 @@
     {
       "language": "en",
       "code": "BCN",
-      "description": ""
+      "description": "Baja California Norte"
     },
     {
       "language": "es",
@@ -173,7 +173,7 @@
     {
       "language": "en",
       "code": "BCS",
-      "description": ""
+      "description": "Baja California Sur"
     },
     {
       "language": "es",
@@ -183,7 +183,7 @@
     {
       "language": "en",
       "code": "CAM",
-      "description": ""
+      "description": "Campeche"
     },
     {
       "language": "es",
@@ -193,7 +193,7 @@
     {
       "language": "en",
       "code": "CHH",
-      "description": ""
+      "description": "Chihuahua"
     },
     {
       "language": "es",
@@ -203,7 +203,7 @@
     {
       "language": "en",
       "code": "CHP",
-      "description": ""
+      "description": "Chiapas"
     },
     {
       "language": "es",
@@ -213,7 +213,7 @@
     {
       "language": "en",
       "code": "CMX",
-      "description": ""
+      "description": "Ciudad de México"
     },
     {
       "language": "es",
@@ -223,7 +223,7 @@
     {
       "language": "en",
       "code": "COA",
-      "description": ""
+      "description": "Coahuila"
     },
     {
       "language": "es",
@@ -233,7 +233,7 @@
     {
       "language": "en",
       "code": "COL",
-      "description": ""
+      "description": "Colima"
     },
     {
       "language": "es",
@@ -243,7 +243,7 @@
     {
       "language": "en",
       "code": "DUR",
-      "description": ""
+      "description": "Durango"
     },
     {
       "language": "es",
@@ -253,7 +253,7 @@
     {
       "language": "en",
       "code": "GRO",
-      "description": ""
+      "description": "Guerrero"
     },
     {
       "language": "es",
@@ -263,7 +263,7 @@
     {
       "language": "en",
       "code": "GUA",
-      "description": ""
+      "description": "Guanajuato"
     },
     {
       "language": "es",
@@ -273,7 +273,7 @@
     {
       "language": "en",
       "code": "HID",
-      "description": ""
+      "description": "Hidalgo"
     },
     {
       "language": "es",
@@ -283,7 +283,7 @@
     {
       "language": "en",
       "code": "JAL",
-      "description": ""
+      "description": "Jalisco"
     },
     {
       "language": "es",
@@ -293,7 +293,7 @@
     {
       "language": "en",
       "code": "MEX",
-      "description": ""
+      "description": "Estado de México"
     },
     {
       "language": "es",
@@ -303,7 +303,7 @@
     {
       "language": "en",
       "code": "MIC",
-      "description": ""
+      "description": "Michoacán"
     },
     {
       "language": "es",
@@ -313,7 +313,7 @@
     {
       "language": "en",
       "code": "MOR",
-      "description": ""
+      "description": "Morelos"
     },
     {
       "language": "es",
@@ -323,7 +323,7 @@
     {
       "language": "en",
       "code": "NAY",
-      "description": ""
+      "description": "Nayarit"
     },
     {
       "language": "es",
@@ -333,7 +333,7 @@
     {
       "language": "en",
       "code": "NLE",
-      "description": ""
+      "description": "Nuevo León"
     },
     {
       "language": "es",
@@ -343,7 +343,7 @@
     {
       "language": "en",
       "code": "OAX",
-      "description": ""
+      "description": "Oaxaca"
     },
     {
       "language": "es",
@@ -353,7 +353,7 @@
     {
       "language": "en",
       "code": "PUE",
-      "description": ""
+      "description": "Puebla"
     },
     {
       "language": "es",
@@ -363,7 +363,7 @@
     {
       "language": "en",
       "code": "QUE",
-      "description": ""
+      "description": "Querétaro"
     },
     {
       "language": "es",
@@ -373,7 +373,7 @@
     {
       "language": "en",
       "code": "ROO",
-      "description": ""
+      "description": "Quintana Roo"
     },
     {
       "language": "es",
@@ -383,7 +383,7 @@
     {
       "language": "en",
       "code": "SIN",
-      "description": ""
+      "description": "Sinaloa"
     },
     {
       "language": "es",
@@ -393,7 +393,7 @@
     {
       "language": "en",
       "code": "SLP",
-      "description": ""
+      "description": "San Luis Potosí"
     },
     {
       "language": "es",
@@ -403,7 +403,7 @@
     {
       "language": "en",
       "code": "SON",
-      "description": ""
+      "description": "Sonora"
     },
     {
       "language": "es",
@@ -413,7 +413,7 @@
     {
       "language": "en",
       "code": "TAB",
-      "description": ""
+      "description": "Tabasco"
     },
     {
       "language": "es",
@@ -423,7 +423,7 @@
     {
       "language": "en",
       "code": "TAM",
-      "description": ""
+      "description": "Tamaulipas"
     },
     {
       "language": "es",
@@ -433,7 +433,7 @@
     {
       "language": "en",
       "code": "TLA",
-      "description": ""
+      "description": "Tlaxcala"
     },
     {
       "language": "es",
@@ -443,7 +443,7 @@
     {
       "language": "en",
       "code": "VER",
-      "description": ""
+      "description": "Veracruz"
     },
     {
       "language": "es",
@@ -453,7 +453,7 @@
     {
       "language": "en",
       "code": "YUC",
-      "description": ""
+      "description": "Yucatan"
     },
     {
       "language": "es",
@@ -463,7 +463,7 @@
     {
       "language": "en",
       "code": "ZAC",
-      "description": ""
+      "description": "Zacatecas"
     },
     {
       "language": "es",
