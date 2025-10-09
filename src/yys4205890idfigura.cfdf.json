@@ -1,0 +1,65 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890IDFigura",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890IDFigura",
+  "type": "text",
+  "typeDetails": {
+    "length": 40
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "ID Figura",
+      "fieldTooltip": "ID Figura",
+      "fieldHeading": "ID Figura"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_OUTBOUNDDELIVERYFS",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "I_DELIVERYDOCUMENT",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "I_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "LE_SHP_OUTBOUND_DELIVERY_FS 0001",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "DELIVERY_GUI",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ]
+}

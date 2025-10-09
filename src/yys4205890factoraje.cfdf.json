@@ -80,6 +80,14 @@
       "businessContext": "FINS_CODING_BLOCK"
     },
     {
+      "cdsViewName": "P_GVOAACCOUNTLINEITEM",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "P_GVOAACCOUNTLINEITEMENHCD",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
       "cdsViewName": "R_MANAGEJOURNALENTRYITEMDRAFT",
       "businessContext": "FINS_CODING_BLOCK"
     },

@@ -1,0 +1,135 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890TipoFigura",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890TipoFigura",
+  "type": "list",
+  "typeDetails": {
+    "length": 3
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Tipo Figura",
+      "fieldTooltip": "Tipo Figura",
+      "fieldHeading": "Tipo Figura"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Tipo Figura (Descr.)",
+      "fieldTooltip": "Tipo Figura (Descr.)",
+      "fieldHeading": "Tipo Figura (Descr.)"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "01"
+    },
+    {
+      "code": "02"
+    },
+    {
+      "code": "03"
+    },
+    {
+      "code": "04"
+    },
+    {
+      "code": "05"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "es",
+      "code": "01",
+      "description": "Operador"
+    },
+    {
+      "language": "es",
+      "code": "02",
+      "description": "Propietario"
+    },
+    {
+      "language": "es",
+      "code": "03",
+      "description": "Arrendador"
+    },
+    {
+      "language": "es",
+      "code": "04",
+      "description": "Notificado"
+    },
+    {
+      "language": "es",
+      "code": "05",
+      "description": "Integrante de Coordinados"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERCUSTOMER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERTP_2",
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_BUSINESS_PARTNER 0001",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "odataServiceKey": "MD_BUSINESSPARTNER_SRV 0001",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "odataServiceKey": "MD_CUSTOMER_MASTER_SRV_01 0001",
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ]
+}

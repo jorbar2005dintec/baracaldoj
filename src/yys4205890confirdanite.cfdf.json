@@ -1,0 +1,88 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890ConfirDanIte",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890ConfirDanIte",
+  "type": "text",
+  "typeDetails": {
+    "length": 30
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Confirmation Danone Item",
+      "fieldTooltip": "Confirmation Danone Item",
+      "fieldHeading": "Confirmation Danone Item"
+    },
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Confirmación Danone item",
+      "fieldTooltip": "Confirmación Danone item",
+      "fieldHeading": "Confirmación Danone item"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "/SCWM/WAREHOUSE_REQUEST_HDR"
+    },
+    {
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_SALESORDERMANAGE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTITEMBASIC",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_SALESORDERTP",
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedBusinessScenarios": [
+    {
+      "businessScenario": "/SCWM/LE_DLV_HEAD_2_WHR_HEAD",
+      "dataTransfer": "/SCWM/LE_DLV_HEAD_2_WHR_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_BILDOC_ITEM",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_BILDOC_ITEM"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_DELIVERY_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_DELIVERY_HEAD"
+    }
+  ]
+}

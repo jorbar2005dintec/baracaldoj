@@ -1,0 +1,45 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890Fecharecepci",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890Fecharecepci",
+  "type": "date",
+  "typeDetails": {},
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Fecha recepción NR/GR",
+      "fieldTooltip": "Fecha recepción NR/GR",
+      "fieldHeading": "Fecha recepción NR/GR"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_SALESORDERMANAGE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_SALESORDERTP",
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "SD_SALESDOC_GUI",
+      "businessContext": "SD_SALESDOC"
+    }
+  ]
+}

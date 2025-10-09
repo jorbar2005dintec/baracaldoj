@@ -1,0 +1,95 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890TipoDocument",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890TipoDocument",
+  "type": "list",
+  "typeDetails": {
+    "length": 3
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Document Type Stellantis",
+      "fieldTooltip": "Document Type Stellantis",
+      "fieldHeading": "Document Type Stellantis"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Document Type Stellantis",
+      "fieldTooltip": "Document Type Stellantis",
+      "fieldHeading": "Document Type Stellantis"
+    },
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Tipo Documento Stellantis",
+      "fieldTooltip": "Tipo Documento Stellantis",
+      "fieldHeading": "Tipo Documento Stellantis"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Tipo Documento Stellantis (Descr.)",
+      "fieldTooltip": "Tipo Documento Stellantis (Descr.)",
+      "fieldHeading": "Tipo Documento Stellantis (Descr.)"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "PPY"
+    },
+    {
+      "code": "PUA"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "en",
+      "code": "PPY",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "PPY",
+      "description": "PPY"
+    },
+    {
+      "language": "en",
+      "code": "PUA",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "PUA",
+      "description": "PUA"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_SALESORDERMANAGE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_SALESORDERTP",
+      "businessContext": "SD_SALESDOC"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890ExcluirLote",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890ExcluirLote",
+  "type": "boolean",
+  "typeDetails": {},
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Excluir Lote en Factura",
+      "fieldTooltip": "Excluir Lote en Factura",
+      "fieldHeading": "Excluir Lote en Factura"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "QM_INSPECTIONLOT"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_INSPECTIONLOT",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "C_INSPLOTMLTPLRSLTREC",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "C_INSPLOTMNG",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "C_INSPLOTRSLTREC",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "C_INSPLOT_OBJECT",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "C_INSPUSGDESCMNG",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "C_QM_INSPECTIONLOTS",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "I_INSPECTIONLOT",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "I_INSPECTIONLOTTP",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "I_INSPECTIONLOTTP_2",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "cdsViewName": "R_INSPECTIONLOTTP",
+      "businessContext": "QM_INSPECTIONLOT"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_INSPECTIONLOT_SRV 0001",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "odataServiceKey": "QM_INSPLOTMNG_SRV 0001",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "odataServiceKey": "QM_INSPLOT_OBJECTPAGE_SRV 0001",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "odataServiceKey": "QM_INSPUSGDSC_MANAGE_SRV 0001",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "odataServiceKey": "QM_MLTPLRR_SRV 0001",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "odataServiceKey": "QM_RR_SRV 0001",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "odataServiceKey": "QM_SUBSET_RR_SRV 0001",
+      "businessContext": "QM_INSPECTIONLOT"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "QM_INSPECTION_LOT_CHANGE_GUI",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "dynproContext": "QM_INSPECTION_LOT_CREATE_GUI",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "dynproContext": "QM_INSPECTION_LOT_DISPLAY_GUI",
+      "businessContext": "QM_INSPECTIONLOT"
+    },
+    {
+      "dynproContext": "QM_RESULTS_RECORDING_GUI",
+      "businessContext": "QM_INSPECTIONLOT"
+    }
+  ]
+}

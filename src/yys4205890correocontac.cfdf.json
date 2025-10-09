@@ -1,0 +1,152 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890CorreoContac",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890CorreoContac",
+  "type": "text",
+  "typeDetails": {
+    "length": 30
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Customer Email YYS420",
+      "fieldTooltip": "Customer Email YYS420",
+      "fieldHeading": "Customer Email YYS420"
+    },
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Correo Contacto Cliente YYS420",
+      "fieldTooltip": "Correo Contacto Cliente YYS420",
+      "fieldHeading": "Correo Contacto Cliente YYS420"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "/SCWM/WAREHOUSE_REQUEST_HDR"
+    },
+    {
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_BILLGDOCREQWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PL_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PRELIMBILLGDOCWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_SALESORDERMANAGE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_SALESORDERTP",
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_EBDR_MANAGE_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedBusinessScenarios": [
+    {
+      "businessScenario": "/SCWM/LE_DLV_HEAD_2_WHR_HEAD",
+      "dataTransfer": "/SCWM/LE_DLV_HEAD_2_WHR_HEAD"
+    },
+    {
+      "businessScenario": "SD_BILDOC_HEAD_2_SLSDOC_HEAD",
+      "dataTransfer": "SD_BILDOC_HEAD_2_SLSDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_DELIVERY_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_DELIVERY_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_DELIVERY_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_DELIVERY_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_SLSDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_SLSDOC_HEAD"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "SD_BILLINGDOC_GUI",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ]
+}

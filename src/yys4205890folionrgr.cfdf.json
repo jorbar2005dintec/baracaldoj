@@ -1,0 +1,41 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890FolioNRGR",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890FolioNRGR",
+  "type": "numericalText",
+  "typeDetails": {
+    "length": 10
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Folio NR/ GR",
+      "fieldTooltip": "Folio NR/ GR",
+      "fieldHeading": "Folio NR/ GR"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_SALESORDERMANAGE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_SALESORDERTP",
+      "businessContext": "SD_SALESDOC"
+    }
+  ]
+}

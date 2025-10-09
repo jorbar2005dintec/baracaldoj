@@ -1,0 +1,49 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890IDChofer",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890IDChofer",
+  "type": "text",
+  "typeDetails": {
+    "length": 20
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "ID Chofer",
+      "fieldTooltip": "ID Chofer",
+      "fieldHeading": "ID Chofer"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "I_DELIVERYDOCUMENT",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "I_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    }
+  ]
+}

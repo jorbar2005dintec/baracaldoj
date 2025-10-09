@@ -1,0 +1,198 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890LineNum",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890LineNum",
+  "type": "phone",
+  "typeDetails": {},
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Line Num",
+      "fieldTooltip": "Line Num",
+      "fieldHeading": "Line Num"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "/SCWM/DLV_ITEM_STR"
+    },
+    {
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    },
+    {
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_BDRIMPRTFRMEXCELBLLBLEDOCITM",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENTITEMFS",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENTITEM_F0797",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "C_FLDLOGSPROCRCPTCSTMFLDEXTN",
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESLSDOCREADREQUEST",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESLSDOCREQUEST",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_PRELIMBILLGDOCITEMOBJPG",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "C_PRELIMBILLGDOCITEMTP_F6990",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "C_SALESDOCUMENTITEMDEX",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_SALESDOCUMENTITEMDEX_1",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_SALESDOCUMENTSCHEDLINEDEX",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_SALESDOCUMENTSCHEDLINEDEX_1",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_SALESORDERITEMMANAGE",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_SALESORDERITEMQRY",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_SLSDOCMASSCHGREQITEMCHANGETP",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTITEM",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTITEMBASIC",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENTITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "I_SALESORDERITEMCUBE",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "I_SALESORDERITEMIMPORT",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVITEMTP",
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYITEMTP",
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYITEMTP",
+      "businessContext": "LE_SHP_DELIVERYITEM"
+    },
+    {
+      "cdsViewName": "R_PRELIMBILLINGDOCUMENTITEMTP",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "R_SALESORDERITEMTP",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "R_SLSDOCMASSCHGREQITEMCHANGETP",
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "odataServiceKey": "SD_MCC_CCO_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "odataServiceKey": "SD_MCC_SO_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_OP_SRV 0001",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "odataServiceKey": "SD_SALES_ORDER_IMPORT 0001",
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ],
+  "extendedBusinessScenarios": [
+    {
+      "businessScenario": "/SCWM/WHR_ITEM_2_LE_DLV_ITEM",
+      "dataTransfer": "/SCWM/WHR_ITEM_2_LE_DLV_ITEM"
+    },
+    {
+      "businessScenario": "SD_BILDOC_ITEM_2_SLSDOC_ITEM",
+      "dataTransfer": "SD_BILDOC_ITEM_2_SLSDOC_ITEM"
+    },
+    {
+      "businessScenario": "SD_DELIVERY_ITEM_2_BILDOC_ITEM",
+      "dataTransfer": "SD_DELIVERY_ITEM_2_BILDOC_ITEM"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_ITEM_2_BILDOC_ITEM",
+      "dataTransfer": "SD_SLSDOC_ITEM_2_BILDOC_ITEM"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_ITEM_2_DELIVERY_ITEM",
+      "dataTransfer": "SD_SLSDOC_ITEM_2_DELIVERY_ITEM"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_ITEM_2_SLSDOC_ITEM",
+      "dataTransfer": "SD_SLSDOC_ITEM_2_SLSDOC_ITEM"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "SD_BILLINGDOCITEM_GUI",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "dynproContext": "SD_SALESDOCITEM_GUI",
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ]
+}

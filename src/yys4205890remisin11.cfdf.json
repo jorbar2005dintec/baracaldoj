@@ -1,0 +1,77 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890Remisin11",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890Remisin11",
+  "type": "text",
+  "typeDetails": {
+    "length": 99
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Delivery note",
+      "fieldTooltip": "Delivery note",
+      "fieldHeading": "Delivery note"
+    },
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Remisión",
+      "fieldTooltip": "Remisión",
+      "fieldHeading": "Remisión"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PL_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "SD_BILLINGDOC_GUI",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890EstadoCP",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890EstadoCP",
+  "type": "list",
+  "typeDetails": {
+    "length": 3
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Estado CP",
+      "fieldTooltip": "Estado CP",
+      "fieldHeading": "Estado CP",
+      "fieldMediumLabel": "Estado CP",
+      "fieldShortLabel": "Estado CP"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Estado CP",
+      "fieldTooltip": "Estado CP",
+      "fieldHeading": "Estado CP",
+      "fieldMediumLabel": "Estado CP",
+      "fieldShortLabel": "Estado CP"
+    },
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Estado CP",
+      "fieldTooltip": "Estado CP",
+      "fieldHeading": "Estado CP",
+      "fieldMediumLabel": "Estado CP",
+      "fieldShortLabel": "Estado CP"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Estado CP (Descr.)",
+      "fieldTooltip": "Estado CP (Descr.)",
+      "fieldHeading": "Estado CP (Descr.)",
+      "fieldMediumLabel": "Estado CP (Descr.)",
+      "fieldShortLabel": "Estado CP"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "AGU"
+    },
+    {
+      "code": "BCN"
+    },
+    {
+      "code": "BCS"
+    },
+    {
+      "code": "CAM"
+    },
+    {
+      "code": "CHH"
+    },
+    {
+      "code": "CHP"
+    },
+    {
+      "code": "CMX"
+    },
+    {
+      "code": "COA"
+    },
+    {
+      "code": "COL"
+    },
+    {
+      "code": "DUR"
+    },
+    {
+      "code": "GRO"
+    },
+    {
+      "code": "GUA"
+    },
+    {
+      "code": "HID"
+    },
+    {
+      "code": "JAL"
+    },
+    {
+      "code": "MEX"
+    },
+    {
+      "code": "MIC"
+    },
+    {
+      "code": "MOR"
+    },
+    {
+      "code": "NAY"
+    },
+    {
+      "code": "NLE"
+    },
+    {
+      "code": "OAX"
+    },
+    {
+      "code": "PUE"
+    },
+    {
+      "code": "QUE"
+    },
+    {
+      "code": "ROO"
+    },
+    {
+      "code": "SIN"
+    },
+    {
+      "code": "SLP"
+    },
+    {
+      "code": "SON"
+    },
+    {
+      "code": "TAB"
+    },
+    {
+      "code": "TAM"
+    },
+    {
+      "code": "TLA"
+    },
+    {
+      "code": "VER"
+    },
+    {
+      "code": "YUC"
+    },
+    {
+      "code": "ZAC"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "en",
+      "code": "AGU",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "AGU",
+      "description": "Aguascalientes"
+    },
+    {
+      "language": "en",
+      "code": "BCN",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "BCN",
+      "description": "Baja California Norte"
+    },
+    {
+      "language": "en",
+      "code": "BCS",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "BCS",
+      "description": "Baja California Sur"
+    },
+    {
+      "language": "en",
+      "code": "CAM",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "CAM",
+      "description": "Campeche"
+    },
+    {
+      "language": "en",
+      "code": "CHH",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "CHH",
+      "description": "Chihuahua"
+    },
+    {
+      "language": "en",
+      "code": "CHP",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "CHP",
+      "description": "Chiapas"
+    },
+    {
+      "language": "en",
+      "code": "CMX",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "CMX",
+      "description": "Ciudad de México"
+    },
+    {
+      "language": "en",
+      "code": "COA",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "COA",
+      "description": "Coahuila"
+    },
+    {
+      "language": "en",
+      "code": "COL",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "COL",
+      "description": "Colima"
+    },
+    {
+      "language": "en",
+      "code": "DUR",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "DUR",
+      "description": "Durango"
+    },
+    {
+      "language": "en",
+      "code": "GRO",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "GRO",
+      "description": "Guerrero"
+    },
+    {
+      "language": "en",
+      "code": "GUA",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "GUA",
+      "description": "Guanajuato"
+    },
+    {
+      "language": "en",
+      "code": "HID",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "HID",
+      "description": "Hidalgo"
+    },
+    {
+      "language": "en",
+      "code": "JAL",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "JAL",
+      "description": "Jalisco"
+    },
+    {
+      "language": "en",
+      "code": "MEX",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "MEX",
+      "description": "Estado de México"
+    },
+    {
+      "language": "en",
+      "code": "MIC",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "MIC",
+      "description": "Michoacán"
+    },
+    {
+      "language": "en",
+      "code": "MOR",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "MOR",
+      "description": "Morelos"
+    },
+    {
+      "language": "en",
+      "code": "NAY",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "NAY",
+      "description": "Nayarit"
+    },
+    {
+      "language": "en",
+      "code": "NLE",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "NLE",
+      "description": "Nuevo León"
+    },
+    {
+      "language": "en",
+      "code": "OAX",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "OAX",
+      "description": "Oaxaca"
+    },
+    {
+      "language": "en",
+      "code": "PUE",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "PUE",
+      "description": "Puebla"
+    },
+    {
+      "language": "en",
+      "code": "QUE",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "QUE",
+      "description": "Querétaro"
+    },
+    {
+      "language": "en",
+      "code": "ROO",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "ROO",
+      "description": "Quintana Roo"
+    },
+    {
+      "language": "en",
+      "code": "SIN",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "SIN",
+      "description": "Sinaloa"
+    },
+    {
+      "language": "en",
+      "code": "SLP",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "SLP",
+      "description": "San Luis Potosí"
+    },
+    {
+      "language": "en",
+      "code": "SON",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "SON",
+      "description": "Sonora"
+    },
+    {
+      "language": "en",
+      "code": "TAB",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "TAB",
+      "description": "Tabasco"
+    },
+    {
+      "language": "en",
+      "code": "TAM",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "TAM",
+      "description": "Tamaulipas"
+    },
+    {
+      "language": "en",
+      "code": "TLA",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "TLA",
+      "description": "Tlaxcala"
+    },
+    {
+      "language": "en",
+      "code": "VER",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "VER",
+      "description": "Veracruz"
+    },
+    {
+      "language": "en",
+      "code": "YUC",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "YUC",
+      "description": "Yucatan"
+    },
+    {
+      "language": "en",
+      "code": "ZAC",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "ZAC",
+      "description": "Zacatecas"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERCUSTOMER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERTP_2",
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_BUSINESS_PARTNER 0001",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "odataServiceKey": "MD_BUSINESSPARTNER_SRV 0001",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "odataServiceKey": "MD_CUSTOMER_MASTER_SRV_01 0001",
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ]
+}

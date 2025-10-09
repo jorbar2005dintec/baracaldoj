@@ -1,0 +1,258 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890Planta",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890Planta",
+  "type": "list",
+  "typeDetails": {
+    "length": 9
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Plant",
+      "fieldTooltip": "Plant",
+      "fieldHeading": "Plant",
+      "fieldMediumLabel": "Plant",
+      "fieldShortLabel": "Plant"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Plant",
+      "fieldTooltip": "Plant",
+      "fieldHeading": "Plant",
+      "fieldMediumLabel": "Plant",
+      "fieldShortLabel": "Plant"
+    },
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Planta",
+      "fieldTooltip": "Planta",
+      "fieldHeading": "Planta",
+      "fieldMediumLabel": "Planta",
+      "fieldShortLabel": "Planta"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Planta (Descr.)",
+      "fieldTooltip": "Planta (Descr.)",
+      "fieldHeading": "Planta (Descr.)",
+      "fieldMediumLabel": "Planta (Descr.)",
+      "fieldShortLabel": "Planta (De"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "3189"
+    },
+    {
+      "code": "8029"
+    },
+    {
+      "code": "8409"
+    },
+    {
+      "code": "8462"
+    },
+    {
+      "code": "8472"
+    },
+    {
+      "code": "8475"
+    },
+    {
+      "code": "8476"
+    },
+    {
+      "code": "8477"
+    },
+    {
+      "code": "8480"
+    },
+    {
+      "code": "8481"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "en",
+      "code": "3189",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "3189",
+      "description": "Home Crib"
+    },
+    {
+      "language": "en",
+      "code": "8029",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "8029",
+      "description": "Continental Group Leader - 8029"
+    },
+    {
+      "language": "en",
+      "code": "8409",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "8409",
+      "description": "Home Crib"
+    },
+    {
+      "language": "en",
+      "code": "8462",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "8462",
+      "description": "Satillo South Engine Home Crib"
+    },
+    {
+      "language": "en",
+      "code": "8472",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "8472",
+      "description": "SALTILLO VAN ASSEMBLY PLANT"
+    },
+    {
+      "language": "en",
+      "code": "8475",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "8475",
+      "description": "CG FCA Saltillo Truck Assembly"
+    },
+    {
+      "language": "en",
+      "code": "8476",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "8476",
+      "description": "CG FCA Saltillo Engine Plant"
+    },
+    {
+      "language": "en",
+      "code": "8477",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "8477",
+      "description": "CG FCA Toluca Stamping Plant"
+    },
+    {
+      "language": "en",
+      "code": "8480",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "8480",
+      "description": "TOLUCA CAR ASSEMBLY PLANT"
+    },
+    {
+      "language": "en",
+      "code": "8481",
+      "description": ""
+    },
+    {
+      "language": "es",
+      "code": "8481",
+      "description": "CG FCA Toluca Assembly Plant"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "/SCWM/WAREHOUSE_REQUEST_HDR"
+    },
+    {
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_PL_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_SALESORDERMANAGE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_SALESORDERTP",
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedBusinessScenarios": [
+    {
+      "businessScenario": "/SCWM/LE_DLV_HEAD_2_WHR_HEAD",
+      "dataTransfer": "/SCWM/LE_DLV_HEAD_2_WHR_HEAD"
+    },
+    {
+      "businessScenario": "SD_BILDOC_HEAD_2_SLSDOC_HEAD",
+      "dataTransfer": "SD_BILDOC_HEAD_2_SLSDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_DELIVERY_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_DELIVERY_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_SLSDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_SLSDOC_HEAD"
+    }
+  ]
+}
