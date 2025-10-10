@@ -11,6 +11,16 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Nombre Contacto Cliente 2",
+      "fieldTooltip": "Nombre Contacto Cliente 2",
+      "fieldHeading": "Nombre Contacto Cliente 2",
+      "fieldMediumLabel": "Nombre Contacto Clie",
+      "fieldShortLabel": "Nombre Con"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
