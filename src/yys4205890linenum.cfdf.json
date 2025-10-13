@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Line Num",
+      "fieldTooltip": "Line Num",
+      "fieldHeading": "Line Num"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
