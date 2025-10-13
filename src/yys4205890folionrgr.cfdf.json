@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Folio NR/ GR",
+      "fieldTooltip": "Folio NR/ GR",
+      "fieldHeading": "Folio NR/ GR"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
