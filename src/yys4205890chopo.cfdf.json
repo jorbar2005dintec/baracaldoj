@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Chopo",
+      "fieldTooltip": "Chopo",
+      "fieldHeading": "Chopo"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
