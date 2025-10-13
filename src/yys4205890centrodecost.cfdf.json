@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Customer Cost Center",
+      "fieldTooltip": "Customer Cost Center",
+      "fieldHeading": "Customer Cost Center"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

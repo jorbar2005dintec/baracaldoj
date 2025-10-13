@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Customer Contact Name",
+      "fieldTooltip": "Customer Contact Name",
+      "fieldHeading": "Customer Contact Name"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

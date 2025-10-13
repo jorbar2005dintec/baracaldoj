@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Receipt Date NR/GR",
+      "fieldTooltip": "Receipt Date NR/GR",
+      "fieldHeading": "Receipt Date NR/GR"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

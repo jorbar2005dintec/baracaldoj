@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Batch Exclusion in Invoice",
+      "fieldTooltip": "Batch Exclusion in Invoice",
+      "fieldHeading": "Batch Exclusion in Invoice"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

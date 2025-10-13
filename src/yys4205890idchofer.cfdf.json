@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Transportist ID",
+      "fieldTooltip": "Transportist ID",
+      "fieldHeading": "Transportist ID"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

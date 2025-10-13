@@ -11,6 +11,14 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "CP License",
+      "fieldTooltip": "CP License",
+      "fieldHeading": "CP License"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
