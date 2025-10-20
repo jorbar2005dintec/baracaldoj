@@ -14,19 +14,19 @@
       "language": "en",
       "componentKind": "main",
       "componentIdentifier": "",
-      "fieldLabel": "Customer Email YYS420",
-      "fieldTooltip": "Customer Email YYS420",
-      "fieldHeading": "Customer Email YYS420",
-      "fieldMediumLabel": "Customer Email YYS42",
+      "fieldLabel": "Customer Email",
+      "fieldTooltip": "Customer Email",
+      "fieldHeading": "Customer Email",
+      "fieldMediumLabel": "Customer Email",
       "fieldShortLabel": "Customer E"
     },
     {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
-      "fieldLabel": "Correo Contacto Cliente YYS420",
-      "fieldTooltip": "Correo Contacto Cliente YYS420",
-      "fieldHeading": "Correo Contacto Cliente YYS420",
+      "fieldLabel": "Correo Contacto Cliente",
+      "fieldTooltip": "Correo Contacto Cliente",
+      "fieldHeading": "Correo Contacto Cliente",
       "fieldMediumLabel": "Correo Contacto Clie",
       "fieldShortLabel": "Correo Con"
     }
@@ -47,12 +47,60 @@
   ],
   "extendedCdsViews": [
     {
+      "cdsViewName": "A_CUSTPROJSLSORD",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_SALESORDER",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_SALESORDERSIMULATION",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_SALESORDERSIMULATION_2",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_SALESORDERWITHOUTCHARGE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "A_SALESORDER_2",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
       "cdsViewName": "C_BILLGDOCREQWORKLIST",
       "businessContext": "SD_BILLINGDOC"
     },
     {
       "cdsViewName": "C_BILLINGDOCUMENT_F0797",
       "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESDOCUMENTITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESORDER",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESORDERITEM",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESLSDOCREADREQUEST",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESLSDOCREQUEST",
+      "businessContext": "SD_SALESDOC"
     },
     {
       "cdsViewName": "C_PL_BILLINGDOCUMENT",
@@ -63,7 +111,27 @@
       "businessContext": "SD_BILLINGDOC"
     },
     {
+      "cdsViewName": "C_SALESORDERFS",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
       "cdsViewName": "C_SALESORDERMANAGE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SALESORDERQUERY",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SALESORDERWL_F1873",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "C_SLSDOCMASSCHGREQHDRCHANGETP",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "ESH_S_SALESORDER",
       "businessContext": "SD_SALESDOC"
     },
     {
@@ -80,6 +148,18 @@
     },
     {
       "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESORDERCUBE",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESORDERIMPORT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESORDERTP",
       "businessContext": "SD_SALESDOC"
     },
     {
@@ -105,9 +185,29 @@
     {
       "cdsViewName": "R_SALESORDERTP",
       "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "R_SLSDOCMASSCHGREQHDRCHANGETP",
+      "businessContext": "SD_SALESDOC"
     }
   ],
   "extendedOdataServices": [
+    {
+      "odataServiceKey": "/CPD/SC_PROJ_ENGMT_CREATE_UPD_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "API_SALES_ORDER_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "API_SALES_ORDER_SIMULATION_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "API_SALES_ORDER_WITHOUT_CHARGE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
     {
       "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
       "businessContext": "SD_BILLINGDOC"
@@ -117,8 +217,28 @@
       "businessContext": "SD_BILLINGDOC"
     },
     {
+      "odataServiceKey": "SD_F1814_SO_FS_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_F1873_SO_WL_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_SD_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "odataServiceKey": "SD_MCC_SO_MASS_UPDATE_SRV 0001",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
       "odataServiceKey": "SD_PRE_BIL_DOC_MANAGE 0001",
       "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_SALES_ORDER_IMPORT 0001",
+      "businessContext": "SD_SALESDOC"
     }
   ],
   "extendedBusinessScenarios": [
@@ -151,6 +271,28 @@
     {
       "dynproContext": "SD_BILLINGDOC_GUI",
       "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "dynproContext": "SD_SALESDOC_GUI",
+      "businessContext": "SD_SALESDOC"
+    }
+  ],
+  "extendedSoapServices": [
+    {
+      "serviceInterface": "CO_SDSLS_ESR_SALES_ORDER_REPL",
+      "operation": "SALES_ORDER_BULK_REPLICATION_O",
+      "messageDirection": "request",
+      "businessContext": "SD_SALESDOC",
+      "externalNamespace": "http://SAPCustomFields.com/YY1_",
+      "externalFieldName": "YYS4205890CorreoContac"
+    },
+    {
+      "serviceInterface": "II_SDSLS_ESR_SALES_ORDER_BULK",
+      "operation": "SALES_ORDER_BULK_REQUEST_IN",
+      "messageDirection": "request",
+      "businessContext": "SD_SALESDOC",
+      "externalNamespace": "http://SAPCustomFields.com/YY1_",
+      "externalFieldName": "YYS4205890CorreoContac"
     }
   ]
 }
