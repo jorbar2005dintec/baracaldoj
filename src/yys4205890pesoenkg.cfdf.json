@@ -1,0 +1,86 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890PesoenKg",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890PesoenKg",
+  "type": "quantity",
+  "typeDetails": {
+    "aggregation": "sum"
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Weight (Kg)",
+      "fieldTooltip": "Weight (Kg)",
+      "fieldHeading": "Weight (Kg)"
+    },
+    {
+      "language": "en",
+      "componentKind": "reference",
+      "componentIdentifier": "",
+      "fieldLabel": "Weight (Kg)",
+      "fieldTooltip": "Weight (Kg)",
+      "fieldHeading": "Weight (Kg)"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Weight (Kg)",
+      "fieldTooltip": "Weight (Kg)",
+      "fieldHeading": "Weight (Kg)"
+    },
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Peso en Kg.",
+      "fieldTooltip": "Peso en Kg.",
+      "fieldHeading": "Peso en Kg."
+    },
+    {
+      "language": "es",
+      "componentKind": "reference",
+      "componentIdentifier": "",
+      "fieldLabel": "Peso en Kg. (Unidad)",
+      "fieldTooltip": "Peso en Kg. (Unidad)",
+      "fieldHeading": "Peso en Kg. (Unidad)"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Peso en Kg. (Descr.)",
+      "fieldTooltip": "Peso en Kg. (Descr.)",
+      "fieldHeading": "Peso en Kg. (Descr.)"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTITEMBASIC",
+      "businessContext": "SD_BILLINGDOCITEM"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENTITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ],
+  "extendedBusinessScenarios": [
+    {
+      "businessScenario": "SD_SLSDOC_ITEM_2_BILDOC_ITEM",
+      "dataTransfer": "SD_SLSDOC_ITEM_2_BILDOC_ITEM"
+    }
+  ]
+}

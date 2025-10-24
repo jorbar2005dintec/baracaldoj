@@ -28,12 +28,23 @@
   "extendedBusinessContexts": [
     {
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "businessContext": "SD_BILLINGDOC"
     }
   ],
   "extendedCdsViews": [
     {
       "cdsViewName": "A_OUTBDELIVERYHEADER_1",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "C_PL_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
     },
     {
       "cdsViewName": "I_DELIVERYDOCUMENT",
@@ -56,6 +67,12 @@
     {
       "odataServiceKey": "API_OUTBOUND_DELIVERY_SRV 0002",
       "businessContext": "LE_SHP_DELIVERY"
+    }
+  ],
+  "extendedBusinessScenarios": [
+    {
+      "businessScenario": "SD_DELIVERY_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_DELIVERY_HEAD_2_BILDOC_HEAD"
     }
   ],
   "extendedDynproContexts": [
