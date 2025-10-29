@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_PRICEPROADDENDA'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_PRICEPROADDENDA'
+  }
+}
+define service ZUI_PRICEPROADDENDA_O4 provider contracts odata_v4_ui {
+  expose ZC_PRICEPROADDENDA;
+}

@@ -1,0 +1,53 @@
+managed implementation in class ZBP_R_PRICEPROADDENDA unique;
+strict ( 2 );
+with draft;
+extensible;
+define behavior for ZR_PRICEPROADDENDA alias ZrPriceproaddenda
+persistent table ZPRICEPROADDENDA
+extensible
+draft table ZPRCPROADDENDA_D
+etag master Locallastchanged
+lock master total etag Lastchangedat
+authorization master( global )
+{
+  field ( mandatory : create )
+   Customerid,
+   Mattype,
+   Condtype;
+
+  field ( readonly )
+   Createdby,
+   Changedby,
+   Lastchangedat,
+   Locallastchanged;
+
+  field ( readonly : update )
+   Customerid,
+   Mattype,
+   Condtype;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZPRICEPROADDENDA corresponding extensible
+  {
+    Customerid = customerid;
+    Mattype = mattype;
+    Condtype = condtype;
+    Condtypetax = condtypetax;
+    Createdby = createdby;
+    Createdat = createdat;
+    Changedby = changedby;
+    Lastchangedat = lastchangedat;
+    Locallastchanged = locallastchanged;
+  }
+
+}

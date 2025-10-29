@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Price Procedure for Addendas",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Price Procedure for Addendas"
+  },
+  "ui5AppDetails": {
+    "appId": "priceprocedure"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_C8B3B79722385B1749FFBE9E4CE7D124A33965C0_TM",
+    "semanticObject": "zpriceprocedure",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_C8B3B79722385B1749FFBE9E4CE7D124A33965C0_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Price Procedure for Addendas"
+      }
+    }
+  ]
+}
