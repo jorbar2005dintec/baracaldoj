@@ -9,85 +9,127 @@
   "typeDetails": {},
   "uiTexts": [
     {
-      "language": "en",
-      "componentKind": "main",
-      "componentIdentifier": "",
-      "fieldLabel": "Colonia CP",
-      "fieldTooltip": "Colonia CP",
-      "fieldHeading": "Colonia CP",
-      "fieldMediumLabel": "Colonia CP",
-      "fieldShortLabel": "Colonia CP"
-    },
-    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
       "fieldLabel": "Colonia CP",
       "fieldTooltip": "Colonia CP",
-      "fieldHeading": "Colonia CP",
-      "fieldMediumLabel": "Colonia CP",
-      "fieldShortLabel": "Colonia CP"
+      "fieldHeading": "Colonia CP"
     }
   ],
   "extendedBusinessContexts": [
     {
-      "businessContext": "BP_CUSTVEND1"
+      "businessContext": "CUSTOMER_GENERAL"
     }
   ],
   "extendedCdsViews": [
     {
-      "cdsViewName": "A_BUSINESSPARTNER",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "A_CUSTOMER",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "C_BUSINESSPARTNER",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "C_BPCUSTOMERPROCESSTP",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "C_BUSINESSPARTNERCUSTOMER",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "C_BUSINESSPARTNERCUST",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "C_BUSINESSPARTNERGOVTP",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "C_MDQANLYTSSCRCUSTCOCODEQ",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "C_BUSINESSPARTNERPROCESSTP",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "C_MDQANLYTSSCRCUSTQ",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "I_BUSINESSPARTNER",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "C_MDQANLYTSSCRCUSTSLSQ",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "I_BUSINESSPARTNERGOVTP",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "C_MDQLTYBPCUSTCOCODERESULT",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "I_BUSINESSPARTNERPROCESSTP",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "C_MDQLTYBPCUSTSALESAREARESULT",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "I_BUSINESSPARTNERTP",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "ESH_S_CUSTOMERS_T",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "I_BUSINESSPARTNERTP_2",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "I_BPCUSTOMERPROCESSTP",
+      "businessContext": "CUSTOMER_GENERAL"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERCUSTOMERTP",
+      "businessContext": "CUSTOMER_GENERAL"
+    },
+    {
+      "cdsViewName": "I_CUSTOMER",
+      "businessContext": "CUSTOMER_GENERAL"
+    },
+    {
+      "cdsViewName": "I_MDQANLYTSSCRCUSTC",
+      "businessContext": "CUSTOMER_GENERAL"
+    },
+    {
+      "cdsViewName": "I_MDQANLYTSSCRCUSTCOCODEC",
+      "businessContext": "CUSTOMER_GENERAL"
+    },
+    {
+      "cdsViewName": "I_MDQANLYTSSCRCUSTSLSC",
+      "businessContext": "CUSTOMER_GENERAL"
     }
   ],
   "extendedOdataServices": [
     {
       "odataServiceKey": "API_BUSINESS_PARTNER 0001",
-      "businessContext": "BP_CUSTVEND1"
+      "businessContext": "CUSTOMER_GENERAL"
+    },
+    {
+      "odataServiceKey": "CMD_QLTY_BP_CUST_CCODE_ALP_SRV 0001",
+      "businessContext": "CUSTOMER_GENERAL"
+    },
+    {
+      "odataServiceKey": "CMD_QLTY_BP_CUST_SALES_ALP_SRV 0001",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
       "odataServiceKey": "MD_BUSINESSPARTNER_SRV 0001",
-      "businessContext": "BP_CUSTVEND1"
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
       "odataServiceKey": "MD_CUSTOMER_MASTER_SRV_01 0001",
-      "businessContext": "BP_CUSTVEND1"
+      "businessContext": "CUSTOMER_GENERAL"
+    }
+  ],
+  "extendedSoapServices": [
+    {
+      "serviceInterface": "CO_MDG_BP_RPLCTRQ",
+      "operation": "BP_SUITEBULK_REPLICATE_REQUEST",
+      "messageDirection": "request",
+      "businessContext": "CUSTOMER_GENERAL",
+      "externalNamespace": "http://SAPCustomFields.com/YY1_",
+      "externalFieldName": "YYS4205890ColoniaCP"
+    },
+    {
+      "serviceInterface": "II_MDG_BP_RECONCILIATION_RC",
+      "operation": "BUSINESS_PARTNER_SUITERECONCIL",
+      "messageDirection": "response",
+      "businessContext": "CUSTOMER_GENERAL",
+      "externalNamespace": "http://SAPCustomFields.com/YY1_",
+      "externalFieldName": "YYS4205890ColoniaCP"
+    },
+    {
+      "serviceInterface": "II_MDG_BP_RPLCTRQ",
+      "operation": "BP_SUITEBULK_REPL_REQ_IN",
+      "messageDirection": "request",
+      "businessContext": "CUSTOMER_GENERAL",
+      "externalNamespace": "http://SAPCustomFields.com/YY1_",
+      "externalFieldName": "YYS4205890ColoniaCP"
     }
   ]
 }
