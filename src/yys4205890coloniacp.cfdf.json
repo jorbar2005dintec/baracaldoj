@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Colonia CP",
+      "fieldTooltip": "Colonia CP",
+      "fieldHeading": "Colonia CP"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",

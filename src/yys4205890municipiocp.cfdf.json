@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Municipio CP",
+      "fieldTooltip": "Municipio CP",
+      "fieldHeading": "Municipio CP"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
