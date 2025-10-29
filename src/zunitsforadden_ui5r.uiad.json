@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Units for Addendas",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Units for Addendas"
+  },
+  "ui5AppDetails": {
+    "appId": "unitforaddenda"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_2307238CCDD36E73C4448366DA6E833CB82A9E95_TM",
+    "semanticObject": "ZUNITSFORADDEN",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_2307238CCDD36E73C4448366DA6E833CB82A9E95_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Units for Addendas"
+      }
+    }
+  ]
+}

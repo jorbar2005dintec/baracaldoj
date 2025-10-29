@@ -1,0 +1,50 @@
+managed implementation in class ZBP_R_UNIDADADDENDA unique;
+strict ( 2 );
+with draft;
+extensible;
+define behavior for ZR_UNIDADADDENDA alias ZrUnidadaddenda
+persistent table ZUNIDADADDENDA
+extensible
+draft table ZUNIDADADDENDA_D
+etag master Locallastchanged
+lock master total etag Lastchangedat
+authorization master( global )
+{
+  field ( mandatory : create )
+   Customerid,
+   Unitofmeasure;
+
+  field ( readonly )
+   Createdby,
+   Changedby,
+   Lastchangedat,
+   Locallastchanged;
+
+  field ( readonly : update )
+   Customerid,
+   Unitofmeasure;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZUNIDADADDENDA corresponding extensible
+  {
+    Customerid = customerid;
+    Unitofmeasure = unitofmeasure;
+    Claveunidadaddenda = claveunidadaddenda;
+    Createdby = createdby;
+    Createdat = createdat;
+    Changedby = changedby;
+    Lastchangedat = lastchangedat;
+    Locallastchanged = locallastchanged;
+  }
+
+}

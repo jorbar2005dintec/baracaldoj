@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_UNIDADADDENDA'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_UNIDADADDENDA'
+  }
+}
+define service ZUI_UNIDADADDENDA_O4 provider contracts odata_v4_ui {
+  expose ZC_UNIDADADDENDA;
+}
