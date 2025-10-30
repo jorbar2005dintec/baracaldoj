@@ -1,0 +1,85 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890BPMunicipioC",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890BPMunicipioC",
+  "type": "phone",
+  "typeDetails": {},
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "BP Municipio CP",
+      "fieldTooltip": "BP Municipio CP",
+      "fieldHeading": "BP Municipio CP"
+    },
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "BP Municipio CP",
+      "fieldTooltip": "BP Municipio CP",
+      "fieldHeading": "BP Municipio CP"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERCUSTOMER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERTP",
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_BUSINESS_PARTNER 0001",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "odataServiceKey": "MD_BUSINESSPARTNER_SRV 0001",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "odataServiceKey": "MD_CUSTOMER_MASTER_SRV_01 0001",
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ]
+}
