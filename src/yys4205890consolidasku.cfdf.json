@@ -9,6 +9,14 @@
   "typeDetails": {},
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "SKU Consolidation",
+      "fieldTooltip": "SKU Consolidation",
+      "fieldHeading": "SKU Consolidation"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
@@ -24,6 +32,14 @@
   ],
   "extendedCdsViews": [
     {
+      "cdsViewName": "A_BILLINGDOCUMENTREQUEST_2",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_BILLINGDOCUMENT_2",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
       "cdsViewName": "C_BILLINGDOCUMENT_F0797",
       "businessContext": "SD_BILLINGDOC"
     },
@@ -36,11 +52,19 @@
       "businessContext": "SD_BILLINGDOC"
     },
     {
+      "cdsViewName": "I_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
       "cdsViewName": "I_BILLINGDOCUMENTBASIC",
       "businessContext": "SD_BILLINGDOC"
     },
     {
       "cdsViewName": "I_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTREQUESTTP",
       "businessContext": "SD_BILLINGDOC"
     },
     {
