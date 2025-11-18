@@ -69,11 +69,37 @@
   ],
   "extendedCdsViews": [
     {
+      "cdsViewName": "C_SALESORDERITEMFS",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_SALESORDERITEMMANAGE",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_SLSDOCMASSCHGREQITEMCHANGETP",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
       "cdsViewName": "I_BILLINGDOCUMENTITEMBASIC",
       "businessContext": "SD_BILLINGDOCITEM"
     },
     {
       "cdsViewName": "I_SALESDOCUMENTITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "R_SALESORDERITEMTP",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "R_SLSDOCMASSCHGREQITEMCHANGETP",
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "SD_F1814_SO_FS_SRV 0001",
       "businessContext": "SD_SALESDOCITEM"
     }
   ],

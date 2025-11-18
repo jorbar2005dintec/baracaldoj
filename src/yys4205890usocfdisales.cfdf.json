@@ -367,6 +367,9 @@
       "businessContext": "LE_SHP_DELIVERY"
     },
     {
+      "businessContext": "SD_ACCDETCOMHEAD"
+    },
+    {
       "businessContext": "SD_BILLINGDOC"
     },
     {
@@ -741,6 +744,10 @@
     {
       "businessScenario": "/SCWM/WHR_HEAD_2_LE_DLV_HEAD",
       "dataTransfer": "/SCWM/WHR_HEAD_2_LE_DLV_HEAD"
+    },
+    {
+      "businessScenario": "SD_BILDOC_HEAD_2_ACDETCOM_HEAD",
+      "dataTransfer": "SD_BILDOC_HEAD_2_ACDETCOM_HEAD"
     },
     {
       "businessScenario": "SD_DELIVERY_HEAD_2_BILDOC_HEAD",

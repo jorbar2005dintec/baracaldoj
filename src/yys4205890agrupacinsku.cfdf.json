@@ -1,28 +1,28 @@
 {
   "formatVersion": "2",
   "header": {
-    "description": "YYS4205890HoraSalida",
+    "description": "YYS4205890AgrupacinSKU",
     "originalLanguage": "es"
   },
-  "externalName": "YYS4205890HoraSalida",
-  "type": "time",
+  "externalName": "YYS4205890AgrupacinSKU",
+  "type": "boolean",
   "typeDetails": {},
   "uiTexts": [
     {
       "language": "en",
       "componentKind": "main",
       "componentIdentifier": "",
-      "fieldLabel": "Time of Release",
-      "fieldTooltip": "Time of Release",
-      "fieldHeading": "Time of Release"
+      "fieldLabel": "SKU Grouping",
+      "fieldTooltip": "SKU Grouping",
+      "fieldHeading": "SKU Grouping"
     },
     {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
-      "fieldLabel": "Hora de salida",
-      "fieldTooltip": "Hora de salida",
-      "fieldHeading": "Hora de salida"
+      "fieldLabel": "Agrupación por SKU",
+      "fieldTooltip": "Agrupación por SKU",
+      "fieldHeading": "Agrupación por SKU"
     }
   ],
   "extendedBusinessContexts": [
@@ -34,23 +34,49 @@
     },
     {
       "businessContext": "SD_BILLINGINDEX"
+    },
+    {
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "businessContext": "SD_SALESDOCITEM"
     }
   ],
   "extendedCdsViews": [
     {
-      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "cdsViewName": "C_BILLGDOCREQWORKLIST",
       "businessContext": "SD_BILLINGDOC"
     },
     {
-      "cdsViewName": "C_OUTBOUNDDELIVERYFS",
-      "businessContext": "LE_SHP_DELIVERY"
+      "cdsViewName": "C_BILLINGDOCUMENTFS",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
     },
     {
       "cdsViewName": "C_PL_BILLINGDOCUMENT",
       "businessContext": "SD_BILLINGDOC"
     },
     {
+      "cdsViewName": "C_PRELIMBILLGDOCOBJPG",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
       "cdsViewName": "C_PRELIMBILLGDOCWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "ESH_S_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "ESH_S_BILLINGDOCUMENTREQUEST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "ESH_S_PRELIMBILLINGDOCUMENT",
       "businessContext": "SD_BILLINGDOC"
     },
     {
@@ -66,12 +92,12 @@
       "businessContext": "SD_BILLINGDOC"
     },
     {
-      "cdsViewName": "I_DELIVERYDOCUMENT",
-      "businessContext": "LE_SHP_DELIVERY"
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
     },
     {
-      "cdsViewName": "I_OUTBOUNDDELIVERYTP",
-      "businessContext": "LE_SHP_DELIVERY"
+      "cdsViewName": "I_SALESDOCUMENTITEM",
+      "businessContext": "SD_SALESDOCITEM"
     },
     {
       "cdsViewName": "R_BILLINGDOCUMENTREQUESTTP",
@@ -96,33 +122,41 @@
   ],
   "extendedOdataServices": [
     {
-      "odataServiceKey": "LE_SHP_OUTBOUND_DELIVERY_FS 0001",
-      "businessContext": "LE_SHP_DELIVERY"
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
     },
     {
-      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "odataServiceKey": "SD_EBDR_MANAGE_SRV 0001",
       "businessContext": "SD_BILLINGDOC"
     },
     {
       "odataServiceKey": "SD_PRE_BIL_DOC_MANAGE 0001",
       "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_OP_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
     }
   ],
   "extendedBusinessScenarios": [
+    {
+      "businessScenario": "SD_BDR_HEAD_2_BILDUELST",
+      "dataTransfer": "SD_BDR_HEAD_2_BILDUELST"
+    },
     {
       "businessScenario": "SD_DELIVERY_HEAD_2_BILDOC_HEAD",
       "dataTransfer": "SD_DELIVERY_HEAD_2_BILDOC_HEAD"
     },
     {
-      "businessScenario": "SD_DELIVERY_HEAD_2_BILDUELST",
-      "dataTransfer": "SD_DELIVERY_HEAD_2_BILDUELST"
+      "businessScenario": "SD_SLSDOC_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_ITEM_2_BILDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_ITEM_2_BILDOC_HEAD"
     }
   ],
   "extendedDynproContexts": [
-    {
-      "dynproContext": "DELIVERY_GUI",
-      "businessContext": "LE_SHP_DELIVERY"
-    },
     {
       "dynproContext": "SD_BILLINGDOC_GUI",
       "businessContext": "SD_BILLINGDOC"

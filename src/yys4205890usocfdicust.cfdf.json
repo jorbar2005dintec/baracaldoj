@@ -1,0 +1,291 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890UsoCFDICust",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890UsoCFDICust",
+  "type": "list",
+  "typeDetails": {
+    "length": 4
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Uso de CFDI",
+      "fieldTooltip": "Uso de CFDI",
+      "fieldHeading": "Uso de CFDI"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Uso de CFDI (Descr.)",
+      "fieldTooltip": "Uso de CFDI (Descr.)",
+      "fieldHeading": "Uso de CFDI (Descr.)"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "CN0"
+    },
+    {
+      "code": "CP01"
+    },
+    {
+      "code": "D01"
+    },
+    {
+      "code": "D02"
+    },
+    {
+      "code": "D03"
+    },
+    {
+      "code": "D04"
+    },
+    {
+      "code": "D05"
+    },
+    {
+      "code": "D06"
+    },
+    {
+      "code": "D07"
+    },
+    {
+      "code": "D08"
+    },
+    {
+      "code": "D09"
+    },
+    {
+      "code": "D10"
+    },
+    {
+      "code": "G01"
+    },
+    {
+      "code": "G02"
+    },
+    {
+      "code": "G03"
+    },
+    {
+      "code": "I01"
+    },
+    {
+      "code": "I02"
+    },
+    {
+      "code": "I03"
+    },
+    {
+      "code": "I04"
+    },
+    {
+      "code": "I05"
+    },
+    {
+      "code": "I06"
+    },
+    {
+      "code": "I07"
+    },
+    {
+      "code": "I08"
+    },
+    {
+      "code": "S01"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "es",
+      "code": "CN0",
+      "description": "Nómina"
+    },
+    {
+      "language": "es",
+      "code": "CP01",
+      "description": "Pagos"
+    },
+    {
+      "language": "es",
+      "code": "D01",
+      "description": "Honorarios médicos, dentales y gastos hospitalarios"
+    },
+    {
+      "language": "es",
+      "code": "D02",
+      "description": "Gastos médicos por incapacidad o discapacidad"
+    },
+    {
+      "language": "es",
+      "code": "D03",
+      "description": "Gastos funerales"
+    },
+    {
+      "language": "es",
+      "code": "D04",
+      "description": "Donativos"
+    },
+    {
+      "language": "es",
+      "code": "D05",
+      "description": "Intereses reales efectivamente pagados por créditos hipoteca"
+    },
+    {
+      "language": "es",
+      "code": "D06",
+      "description": "Aportaciones voluntarias al SAR"
+    },
+    {
+      "language": "es",
+      "code": "D07",
+      "description": "Primas por seguros de gastos médicos"
+    },
+    {
+      "language": "es",
+      "code": "D08",
+      "description": "Gastos de transportación escolar obligatoria"
+    },
+    {
+      "language": "es",
+      "code": "D09",
+      "description": "Depósitos en cuentas para el ahorro, primas que tengan como"
+    },
+    {
+      "language": "es",
+      "code": "D10",
+      "description": "Pagos por servicios educativos (colegiaturas)"
+    },
+    {
+      "language": "es",
+      "code": "G01",
+      "description": "Adquisición de mercancías"
+    },
+    {
+      "language": "es",
+      "code": "G02",
+      "description": "Devoluciones, descuentos o bonificaciones"
+    },
+    {
+      "language": "es",
+      "code": "G03",
+      "description": "Gastos en general"
+    },
+    {
+      "language": "es",
+      "code": "I01",
+      "description": "Construcciones"
+    },
+    {
+      "language": "es",
+      "code": "I02",
+      "description": "Mobiliario y equipo de oficina por inversiones"
+    },
+    {
+      "language": "es",
+      "code": "I03",
+      "description": "Equipo de transporte"
+    },
+    {
+      "language": "es",
+      "code": "I04",
+      "description": "Equipo de cómputo y accesorios"
+    },
+    {
+      "language": "es",
+      "code": "I05",
+      "description": "Dados, troqueles, moldes, matrices y herramental"
+    },
+    {
+      "language": "es",
+      "code": "I06",
+      "description": "Comunicaciones telefónicas"
+    },
+    {
+      "language": "es",
+      "code": "I07",
+      "description": "Comunicaciones satelitales"
+    },
+    {
+      "language": "es",
+      "code": "I08",
+      "description": "Otra maquinaria y equipo"
+    },
+    {
+      "language": "es",
+      "code": "S01",
+      "description": "Sin Efectos Fiscales"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERCUSTOMER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "C_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "ESH_S_BUSINESSPARTNERS",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNER",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERGOVTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERPROCESSTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERTP",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "cdsViewName": "I_BUSINESSPARTNERTP_2",
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_BUSINESS_PARTNER 0001",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "odataServiceKey": "MD_BUSINESSPARTNER_SRV 0001",
+      "businessContext": "BP_CUSTVEND1"
+    },
+    {
+      "odataServiceKey": "MD_CUSTOMER_MASTER_SRV_01 0001",
+      "businessContext": "BP_CUSTVEND1"
+    }
+  ]
+}

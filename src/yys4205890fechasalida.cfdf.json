@@ -31,12 +31,25 @@
     },
     {
       "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "businessContext": "SD_BILLINGINDEX"
+    },
+    {
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "businessContext": "SD_SALESDOCITEM"
     }
   ],
   "extendedCdsViews": [
     {
       "cdsViewName": "A_OUTBDELIVERYHEADER_1",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
     },
     {
       "cdsViewName": "C_OUTBOUNDDELIVERYFS",
@@ -47,7 +60,19 @@
       "businessContext": "SD_BILLINGDOC"
     },
     {
+      "cdsViewName": "C_PRELIMBILLGDOCWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
       "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTTP",
       "businessContext": "SD_BILLINGDOC"
     },
     {
@@ -57,6 +82,22 @@
     {
       "cdsViewName": "I_OUTBOUNDDELIVERYTP",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENTITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
     },
     {
       "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
@@ -75,18 +116,42 @@
     {
       "odataServiceKey": "API_OUTBOUND_DELIVERY_SRV 0002",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
     }
   ],
   "extendedBusinessScenarios": [
     {
+      "businessScenario": "SD_BDR_HEAD_2_BILDUELST",
+      "dataTransfer": "SD_BDR_HEAD_2_BILDUELST"
+    },
+    {
       "businessScenario": "SD_DELIVERY_HEAD_2_BILDOC_HEAD",
       "dataTransfer": "SD_DELIVERY_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_ITEM_2_BILDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_ITEM_2_BILDOC_HEAD"
     }
   ],
   "extendedDynproContexts": [
     {
       "dynproContext": "DELIVERY_GUI",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "dynproContext": "SD_BILLINGDOC_GUI",
+      "businessContext": "SD_BILLINGDOC"
     }
   ]
 }

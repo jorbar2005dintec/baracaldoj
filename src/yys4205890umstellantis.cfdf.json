@@ -1,28 +1,30 @@
 {
   "formatVersion": "2",
   "header": {
-    "description": "YYS4205890LineNum",
+    "description": "YYS4205890UMSTELLANTIS",
     "originalLanguage": "es"
   },
-  "externalName": "YYS4205890LineNum",
-  "type": "phone",
-  "typeDetails": {},
+  "externalName": "YYS4205890UMSTELLANTIS",
+  "type": "text",
+  "typeDetails": {
+    "length": 20
+  },
   "uiTexts": [
     {
       "language": "en",
       "componentKind": "main",
       "componentIdentifier": "",
-      "fieldLabel": "Line Num",
-      "fieldTooltip": "Line Num",
-      "fieldHeading": "Line Num"
+      "fieldLabel": "UM STELLANTIS",
+      "fieldTooltip": "UM STELLANTIS",
+      "fieldHeading": "UM STELLANTIS"
     },
     {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
-      "fieldLabel": "Line Num",
-      "fieldTooltip": "Line Num",
-      "fieldHeading": "Line Num"
+      "fieldLabel": "UM STELLANTIS",
+      "fieldTooltip": "UM STELLANTIS",
+      "fieldHeading": "UM STELLANTIS"
     }
   ],
   "extendedBusinessContexts": [
@@ -57,16 +59,20 @@
       "businessContext": "LE_SHP_DELIVERYITEM"
     },
     {
+      "cdsViewName": "C_MASSCHANGESALESCONTRACTITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "C_MASSCHANGESALESORDERITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
       "cdsViewName": "C_MASSCHANGESLSDOCREADREQUEST",
       "businessContext": "SD_SALESDOCITEM"
     },
     {
       "cdsViewName": "C_MASSCHANGESLSDOCREQUEST",
       "businessContext": "SD_SALESDOCITEM"
-    },
-    {
-      "cdsViewName": "C_PRELIMBILLGDOCITEMOBJPG",
-      "businessContext": "SD_BILLINGDOCITEM"
     },
     {
       "cdsViewName": "C_PRELIMBILLGDOCITEMTP_F6990",
@@ -117,14 +123,6 @@
       "businessContext": "SD_SALESDOCITEM"
     },
     {
-      "cdsViewName": "I_SALESORDERITEMIMPORT",
-      "businessContext": "SD_SALESDOCITEM"
-    },
-    {
-      "cdsViewName": "I_SALESORDERITEMTP",
-      "businessContext": "SD_SALESDOCITEM"
-    },
-    {
       "cdsViewName": "R_CUSTOMERRETURNSDELIVITEMTP",
       "businessContext": "LE_SHP_DELIVERYITEM"
     },
@@ -160,14 +158,6 @@
     },
     {
       "odataServiceKey": "SD_MCC_SO_MASS_UPDATE_SRV 0001",
-      "businessContext": "SD_SALESDOCITEM"
-    },
-    {
-      "odataServiceKey": "SD_PRE_BIL_DOC_OP_SRV 0001",
-      "businessContext": "SD_BILLINGDOCITEM"
-    },
-    {
-      "odataServiceKey": "SD_SALES_ORDER_IMPORT 0001",
       "businessContext": "SD_SALESDOCITEM"
     }
   ],

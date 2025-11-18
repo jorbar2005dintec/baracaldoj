@@ -1,0 +1,67 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890ConsolidaSKU",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890ConsolidaSKU",
+  "type": "boolean",
+  "typeDetails": {},
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "ConsolidaSKU",
+      "fieldTooltip": "ConsolidaSKU",
+      "fieldHeading": "ConsolidaSKU"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PL_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PRELIMBILLGDOCWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedDynproContexts": [
+    {
+      "dynproContext": "SD_BILLINGDOC_GUI",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ]
+}

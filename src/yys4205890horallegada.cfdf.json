@@ -35,6 +35,10 @@
   ],
   "extendedCdsViews": [
     {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
       "cdsViewName": "C_OUTBOUNDDELIVERYFS",
       "businessContext": "LE_SHP_DELIVERY"
     },
@@ -43,7 +47,19 @@
       "businessContext": "SD_BILLINGDOC"
     },
     {
+      "cdsViewName": "C_PRELIMBILLGDOCWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
       "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTTP",
       "businessContext": "SD_BILLINGDOC"
     },
     {
@@ -53,6 +69,14 @@
     {
       "cdsViewName": "I_OUTBOUNDDELIVERYTP",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
     },
     {
       "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
@@ -71,6 +95,14 @@
     {
       "odataServiceKey": "LE_SHP_OUTBOUND_DELIVERY_FS 0001",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_PRE_BIL_DOC_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
     }
   ],
   "extendedBusinessScenarios": [
@@ -83,6 +115,10 @@
     {
       "dynproContext": "DELIVERY_GUI",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "dynproContext": "SD_BILLINGDOC_GUI",
+      "businessContext": "SD_BILLINGDOC"
     }
   ]
 }

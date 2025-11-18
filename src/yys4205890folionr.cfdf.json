@@ -16,15 +16,17 @@
       "componentIdentifier": "",
       "fieldLabel": "Number NR",
       "fieldTooltip": "Number NR",
-      "fieldHeading": "Number NR"
+      "fieldHeading": "Number NR",
+      "fieldMediumLabel": "Number NR"
     },
     {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
-      "fieldLabel": "Folio NR",
-      "fieldTooltip": "Folio NR",
-      "fieldHeading": "Folio NR"
+      "fieldLabel": "Folio NR S4",
+      "fieldTooltip": "Folio NR S4",
+      "fieldHeading": "Folio NR S4",
+      "fieldMediumLabel": "Folio NR S4"
     }
   ],
   "extendedBusinessContexts": [
