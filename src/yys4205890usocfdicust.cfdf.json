@@ -11,6 +11,22 @@
   },
   "uiTexts": [
     {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "CFDI Usage",
+      "fieldTooltip": "CFDI Usage",
+      "fieldHeading": "CFDI Usage"
+    },
+    {
+      "language": "en",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "CFDI Usage",
+      "fieldTooltip": "CFDI Usage",
+      "fieldHeading": "CFDI Usage"
+    },
+    {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
@@ -103,9 +119,19 @@
   ],
   "codeListDescriptions": [
     {
+      "language": "en",
+      "code": "CN0",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "CN0",
       "description": "Nómina"
+    },
+    {
+      "language": "en",
+      "code": "CP01",
+      "description": ""
     },
     {
       "language": "es",
@@ -113,9 +139,19 @@
       "description": "Pagos"
     },
     {
+      "language": "en",
+      "code": "D01",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "D01",
       "description": "Honorarios médicos, dentales y gastos hospitalarios"
+    },
+    {
+      "language": "en",
+      "code": "D02",
+      "description": ""
     },
     {
       "language": "es",
@@ -123,9 +159,19 @@
       "description": "Gastos médicos por incapacidad o discapacidad"
     },
     {
+      "language": "en",
+      "code": "D03",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "D03",
       "description": "Gastos funerales"
+    },
+    {
+      "language": "en",
+      "code": "D04",
+      "description": ""
     },
     {
       "language": "es",
@@ -133,9 +179,19 @@
       "description": "Donativos"
     },
     {
+      "language": "en",
+      "code": "D05",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "D05",
       "description": "Intereses reales efectivamente pagados por créditos hipoteca"
+    },
+    {
+      "language": "en",
+      "code": "D06",
+      "description": ""
     },
     {
       "language": "es",
@@ -143,9 +199,19 @@
       "description": "Aportaciones voluntarias al SAR"
     },
     {
+      "language": "en",
+      "code": "D07",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "D07",
       "description": "Primas por seguros de gastos médicos"
+    },
+    {
+      "language": "en",
+      "code": "D08",
+      "description": ""
     },
     {
       "language": "es",
@@ -153,9 +219,19 @@
       "description": "Gastos de transportación escolar obligatoria"
     },
     {
+      "language": "en",
+      "code": "D09",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "D09",
       "description": "Depósitos en cuentas para el ahorro, primas que tengan como"
+    },
+    {
+      "language": "en",
+      "code": "D10",
+      "description": ""
     },
     {
       "language": "es",
@@ -163,9 +239,19 @@
       "description": "Pagos por servicios educativos (colegiaturas)"
     },
     {
+      "language": "en",
+      "code": "G01",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "G01",
       "description": "Adquisición de mercancías"
+    },
+    {
+      "language": "en",
+      "code": "G02",
+      "description": ""
     },
     {
       "language": "es",
@@ -173,9 +259,19 @@
       "description": "Devoluciones, descuentos o bonificaciones"
     },
     {
+      "language": "en",
+      "code": "G03",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "G03",
       "description": "Gastos en general"
+    },
+    {
+      "language": "en",
+      "code": "I01",
+      "description": ""
     },
     {
       "language": "es",
@@ -183,9 +279,19 @@
       "description": "Construcciones"
     },
     {
+      "language": "en",
+      "code": "I02",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "I02",
       "description": "Mobiliario y equipo de oficina por inversiones"
+    },
+    {
+      "language": "en",
+      "code": "I03",
+      "description": ""
     },
     {
       "language": "es",
@@ -193,9 +299,19 @@
       "description": "Equipo de transporte"
     },
     {
+      "language": "en",
+      "code": "I04",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "I04",
       "description": "Equipo de cómputo y accesorios"
+    },
+    {
+      "language": "en",
+      "code": "I05",
+      "description": ""
     },
     {
       "language": "es",
@@ -203,9 +319,19 @@
       "description": "Dados, troqueles, moldes, matrices y herramental"
     },
     {
+      "language": "en",
+      "code": "I06",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "I06",
       "description": "Comunicaciones telefónicas"
+    },
+    {
+      "language": "en",
+      "code": "I07",
+      "description": ""
     },
     {
       "language": "es",
@@ -213,9 +339,19 @@
       "description": "Comunicaciones satelitales"
     },
     {
+      "language": "en",
+      "code": "I08",
+      "description": ""
+    },
+    {
       "language": "es",
       "code": "I08",
       "description": "Otra maquinaria y equipo"
+    },
+    {
+      "language": "en",
+      "code": "S01",
+      "description": ""
     },
     {
       "language": "es",
