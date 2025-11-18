@@ -16,7 +16,9 @@
       "componentIdentifier": "",
       "fieldLabel": "CFDI Usage",
       "fieldTooltip": "CFDI Usage",
-      "fieldHeading": "CFDI Usage"
+      "fieldHeading": "CFDI Usage",
+      "fieldMediumLabel": "CFDIUsa",
+      "fieldShortLabel": "CFDIUsa"
     },
     {
       "language": "en",
@@ -24,7 +26,9 @@
       "componentIdentifier": "",
       "fieldLabel": "CFDI Usage",
       "fieldTooltip": "CFDI Usage",
-      "fieldHeading": "CFDI Usage"
+      "fieldHeading": "CFDI Usage",
+      "fieldMediumLabel": "CFDIUsa",
+      "fieldShortLabel": "CFDIUsa"
     },
     {
       "language": "es",
@@ -121,7 +125,7 @@
     {
       "language": "en",
       "code": "CN0",
-      "description": ""
+      "description": "Payroll"
     },
     {
       "language": "es",
@@ -131,7 +135,7 @@
     {
       "language": "en",
       "code": "CP01",
-      "description": ""
+      "description": "Payments"
     },
     {
       "language": "es",
@@ -141,7 +145,7 @@
     {
       "language": "en",
       "code": "D01",
-      "description": ""
+      "description": "Medical, dental, and hospital expenses"
     },
     {
       "language": "es",
@@ -151,7 +155,7 @@
     {
       "language": "en",
       "code": "D02",
-      "description": ""
+      "description": "Medical expenses for incapacity or disability"
     },
     {
       "language": "es",
@@ -161,7 +165,7 @@
     {
       "language": "en",
       "code": "D03",
-      "description": ""
+      "description": "Funeral expenses"
     },
     {
       "language": "es",
@@ -171,7 +175,7 @@
     {
       "language": "en",
       "code": "D04",
-      "description": ""
+      "description": "Donations"
     },
     {
       "language": "es",
@@ -181,7 +185,7 @@
     {
       "language": "en",
       "code": "D05",
-      "description": ""
+      "description": "Actual interest paid on mortgage loans"
     },
     {
       "language": "es",
@@ -191,7 +195,7 @@
     {
       "language": "en",
       "code": "D06",
-      "description": ""
+      "description": "Voluntary contributions to the SAR"
     },
     {
       "language": "es",
@@ -201,7 +205,7 @@
     {
       "language": "en",
       "code": "D07",
-      "description": ""
+      "description": "Premiums for medical expense insurance"
     },
     {
       "language": "es",
@@ -211,7 +215,7 @@
     {
       "language": "en",
       "code": "D08",
-      "description": ""
+      "description": "Mandatory school transportation expenses"
     },
     {
       "language": "es",
@@ -221,7 +225,7 @@
     {
       "language": "en",
       "code": "D09",
-      "description": ""
+      "description": "Deposits in savings accounts, premiums that have as"
     },
     {
       "language": "es",
@@ -231,7 +235,7 @@
     {
       "language": "en",
       "code": "D10",
-      "description": ""
+      "description": "Payments for educational services (tuition)"
     },
     {
       "language": "es",
@@ -241,7 +245,7 @@
     {
       "language": "en",
       "code": "G01",
-      "description": ""
+      "description": "Acquisition of goods"
     },
     {
       "language": "es",
@@ -251,7 +255,7 @@
     {
       "language": "en",
       "code": "G02",
-      "description": ""
+      "description": "Returns, discounts, or bonuses"
     },
     {
       "language": "es",
@@ -261,7 +265,7 @@
     {
       "language": "en",
       "code": "G03",
-      "description": ""
+      "description": "General expenses"
     },
     {
       "language": "es",
@@ -271,7 +275,7 @@
     {
       "language": "en",
       "code": "I01",
-      "description": ""
+      "description": "Constructions"
     },
     {
       "language": "es",
@@ -281,7 +285,7 @@
     {
       "language": "en",
       "code": "I02",
-      "description": ""
+      "description": "Office furniture and equipment for investments"
     },
     {
       "language": "es",
@@ -291,7 +295,7 @@
     {
       "language": "en",
       "code": "I03",
-      "description": ""
+      "description": "Transport Machine"
     },
     {
       "language": "es",
@@ -301,7 +305,7 @@
     {
       "language": "en",
       "code": "I04",
-      "description": ""
+      "description": "Computer equipment and accessories"
     },
     {
       "language": "es",
@@ -311,7 +315,7 @@
     {
       "language": "en",
       "code": "I05",
-      "description": ""
+      "description": "Dies, stamps, molds, dies, and tooling"
     },
     {
       "language": "es",
@@ -321,7 +325,7 @@
     {
       "language": "en",
       "code": "I06",
-      "description": ""
+      "description": "Telephone communications"
     },
     {
       "language": "es",
@@ -331,7 +335,7 @@
     {
       "language": "en",
       "code": "I07",
-      "description": ""
+      "description": "Satellite communications"
     },
     {
       "language": "es",
@@ -341,7 +345,7 @@
     {
       "language": "en",
       "code": "I08",
-      "description": ""
+      "description": "Other machinery and equipment"
     },
     {
       "language": "es",
@@ -351,7 +355,7 @@
     {
       "language": "en",
       "code": "S01",
-      "description": ""
+      "description": "No Tax Effects"
     },
     {
       "language": "es",
