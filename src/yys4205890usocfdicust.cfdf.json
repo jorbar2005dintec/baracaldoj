@@ -24,27 +24,28 @@
       "language": "en",
       "componentKind": "description",
       "componentIdentifier": "",
-      "fieldLabel": "CFDI Usage",
-      "fieldTooltip": "CFDI Usage",
-      "fieldHeading": "CFDI Usage",
-      "fieldMediumLabel": "CFDIUsa",
-      "fieldShortLabel": "CFDIUsa"
+      "fieldLabel": "CFDI Usage D",
+      "fieldTooltip": "CFDI Usage D",
+      "fieldHeading": "CFDI Usage D",
+      "fieldMediumLabel": "CFDIUsa D",
+      "fieldShortLabel": "CFDIUsa D"
     },
     {
       "language": "es",
       "componentKind": "main",
       "componentIdentifier": "",
-      "fieldLabel": "Uso de CFDI",
-      "fieldTooltip": "Uso de CFDI",
-      "fieldHeading": "Uso de CFDI"
+      "fieldLabel": "USO de CFDI",
+      "fieldTooltip": "USO de CFDI",
+      "fieldHeading": "USO de CFDI"
     },
     {
       "language": "es",
       "componentKind": "description",
       "componentIdentifier": "",
-      "fieldLabel": "Uso de CFDI (Descr.)",
-      "fieldTooltip": "Uso de CFDI (Descr.)",
-      "fieldHeading": "Uso de CFDI (Descr.)"
+      "fieldLabel": "USO de CFDI (Descr.)",
+      "fieldTooltip": "USO de CFDI (Descr.)",
+      "fieldHeading": "USO de CFDI (Descr.)",
+      "fieldMediumLabel": "USO de CFDI (Descr.)"
     }
   ],
   "codeListValues": [
@@ -365,67 +366,47 @@
   ],
   "extendedBusinessContexts": [
     {
-      "businessContext": "BP_CUSTVEND1"
+      "businessContext": "CUSTOMER_GENERAL"
     }
   ],
   "extendedCdsViews": [
     {
-      "cdsViewName": "A_BUSINESSPARTNER",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "A_CUSTOMER",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "C_BUSINESSPARTNER",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "C_BPCUSTOMERPROCESSTP",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "C_BUSINESSPARTNERCUSTOMER",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "C_BUSINESSPARTNERCUST",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "C_BUSINESSPARTNERGOVTP",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "I_BPCUSTOMERPROCESSTP",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "C_BUSINESSPARTNERPROCESSTP",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "I_BUSINESSPARTNERCUSTOMERTP",
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
-      "cdsViewName": "ESH_S_BUSINESSPARTNERS",
-      "businessContext": "BP_CUSTVEND1"
-    },
-    {
-      "cdsViewName": "I_BUSINESSPARTNER",
-      "businessContext": "BP_CUSTVEND1"
-    },
-    {
-      "cdsViewName": "I_BUSINESSPARTNERGOVTP",
-      "businessContext": "BP_CUSTVEND1"
-    },
-    {
-      "cdsViewName": "I_BUSINESSPARTNERPROCESSTP",
-      "businessContext": "BP_CUSTVEND1"
-    },
-    {
-      "cdsViewName": "I_BUSINESSPARTNERTP",
-      "businessContext": "BP_CUSTVEND1"
-    },
-    {
-      "cdsViewName": "I_BUSINESSPARTNERTP_2",
-      "businessContext": "BP_CUSTVEND1"
+      "cdsViewName": "I_CUSTOMER",
+      "businessContext": "CUSTOMER_GENERAL"
     }
   ],
   "extendedOdataServices": [
     {
       "odataServiceKey": "API_BUSINESS_PARTNER 0001",
-      "businessContext": "BP_CUSTVEND1"
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
       "odataServiceKey": "MD_BUSINESSPARTNER_SRV 0001",
-      "businessContext": "BP_CUSTVEND1"
+      "businessContext": "CUSTOMER_GENERAL"
     },
     {
       "odataServiceKey": "MD_CUSTOMER_MASTER_SRV_01 0001",
-      "businessContext": "BP_CUSTVEND1"
+      "businessContext": "CUSTOMER_GENERAL"
     }
   ]
 }
