@@ -14,7 +14,9 @@
       "componentIdentifier": "",
       "fieldLabel": "Carta Porte",
       "fieldTooltip": "Carta Porte",
-      "fieldHeading": "Carta Porte"
+      "fieldHeading": "Carta Porte",
+      "fieldMediumLabel": "Carta Porte",
+      "fieldShortLabel": "Carta Port"
     },
     {
       "language": "es",
@@ -47,8 +49,28 @@
   ],
   "extendedCdsViews": [
     {
+      "cdsViewName": "A_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_BILLINGDOCUMENTREQUESTS2S",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_BILLINGDOCUMENTREQUEST_2",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_BILLINGDOCUMENT_2",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
       "cdsViewName": "A_OUTBDELIVERYHEADER_1",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "A_PRELIMINARYBILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
     },
     {
       "cdsViewName": "A_SERVICECONTRACT",
@@ -83,7 +105,15 @@
       "businessContext": "CRMS4_SERV_H"
     },
     {
+      "cdsViewName": "I_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
       "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTREQUESTTP",
       "businessContext": "SD_BILLINGDOC"
     },
     {
@@ -101,6 +131,10 @@
     {
       "cdsViewName": "I_SALESDOCUMENTITEM",
       "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTREQUESTTP",
+      "businessContext": "SD_BILLINGDOC"
     },
     {
       "cdsViewName": "R_BILLINGDOCUMENTTP",
@@ -129,9 +163,17 @@
     {
       "cdsViewName": "R_OUTBOUNDDELIVERYTP",
       "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_PRELIMBILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
     }
   ],
   "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_BILLING_DOCUMENT_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
     {
       "odataServiceKey": "API_OUTBOUND_DELIVERY_SRV 0002",
       "businessContext": "LE_SHP_DELIVERY"

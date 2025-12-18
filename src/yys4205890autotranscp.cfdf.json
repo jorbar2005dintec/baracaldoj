@@ -16,7 +16,9 @@
       "componentIdentifier": "",
       "fieldLabel": "AutotransporteCpVh",
       "fieldTooltip": "AutotransporteCpVh",
-      "fieldHeading": "AutotransporteCpVh"
+      "fieldHeading": "AutotransporteCpVh",
+      "fieldMediumLabel": "AutotransporteCpVh",
+      "fieldShortLabel": "Autotransp"
     },
     {
       "language": "en",
@@ -24,7 +26,9 @@
       "componentIdentifier": "",
       "fieldLabel": "AutotransporteCpVh (Desc.)",
       "fieldTooltip": "AutotransporteCpVh (Desc.)",
-      "fieldHeading": "AutotransporteCpVh (Desc.)"
+      "fieldHeading": "AutotransporteCpVh (Desc.)",
+      "fieldMediumLabel": "AutotransporteCpVh",
+      "fieldShortLabel": "Autotransp"
     },
     {
       "language": "es",
@@ -32,7 +36,9 @@
       "componentIdentifier": "",
       "fieldLabel": "AutotransporteCpVh",
       "fieldTooltip": "AutotransporteCpVh",
-      "fieldHeading": "AutotransporteCpVh"
+      "fieldHeading": "AutotransporteCpVh",
+      "fieldMediumLabel": "AutotransporteCpVh",
+      "fieldShortLabel": "Autotransp"
     },
     {
       "language": "es",
@@ -40,7 +46,9 @@
       "componentIdentifier": "",
       "fieldLabel": "AutotransporteCpVh (Descr.)",
       "fieldTooltip": "AutotransporteCpVh (Descr.)",
-      "fieldHeading": "AutotransporteCpVh (Descr.)"
+      "fieldHeading": "AutotransporteCpVh (Descr.)",
+      "fieldMediumLabel": "AutotransporteCpVh (",
+      "fieldShortLabel": "Autotransp"
     }
   ],
   "extendedBusinessContexts": [
