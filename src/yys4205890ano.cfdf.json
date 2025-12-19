@@ -1,0 +1,55 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890Ano",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890Ano",
+  "type": "numericalText",
+  "typeDetails": {
+    "length": 5
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Year",
+      "fieldTooltip": "Year",
+      "fieldHeading": "Year"
+    },
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Año",
+      "fieldTooltip": "Año",
+      "fieldHeading": "Año"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_PL_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ]
+}
