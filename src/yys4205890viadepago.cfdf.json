@@ -1,0 +1,135 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4205890ViadePago",
+    "originalLanguage": "es"
+  },
+  "externalName": "YYS4205890ViadePago",
+  "type": "list",
+  "typeDetails": {
+    "length": 3
+  },
+  "uiTexts": [
+    {
+      "language": "es",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "Vía de pago",
+      "fieldTooltip": "Vía de pago",
+      "fieldHeading": "Vía de pago"
+    },
+    {
+      "language": "es",
+      "componentKind": "description",
+      "componentIdentifier": "",
+      "fieldLabel": "Vía de pago (Descr.)",
+      "fieldTooltip": "Vía de pago (Descr.)",
+      "fieldHeading": "Vía de pago (Descr.)"
+    }
+  ],
+  "codeListValues": [
+    {
+      "code": "01"
+    },
+    {
+      "code": "02"
+    },
+    {
+      "code": "03"
+    }
+  ],
+  "codeListDescriptions": [
+    {
+      "language": "es",
+      "code": "01",
+      "description": "Efectivo"
+    },
+    {
+      "language": "es",
+      "code": "02",
+      "description": "Cheque nominativo"
+    },
+    {
+      "language": "es",
+      "code": "03",
+      "description": "Transferencia electrónica"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "FINS_CODING_BLOCK"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "CTE_FIN_SUBS_TARGET_ITEM",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "C_MANAGEJOURNALENTRYITEMTP",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "C_MANAGEJOURNALENTRYLEDGERVIEW",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "C_MNGJRNLENTRPRDTNLEDGERVIEW",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "C_MNGJRNLENTRTECHLEDGERVIEW",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "FIN_SUBSTNVALDTNCODINGBLOCK",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "FIN_SUBVAL_JOURNALENTRYITEM",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "FIN_SUBVAL_PLANNINGENTRYITEM",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "NSDM_E_MSEG",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "P_GLACCOUNTBALANCE",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "P_GVOAACCOUNTLINEITEM",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "P_GVOAACCOUNTLINEITEMENHCD",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "R_MANAGEJOURNALENTRYITEMDRAFT",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "cdsViewName": "R_MANAGEJOURNALENTRYITEMTP",
+      "businessContext": "FINS_CODING_BLOCK"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "FAC_FINANCIAL_DOCUMENT_SRV_01 0001",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "odataServiceKey": "FAR_MANUAL_CLEARING_SRV 0001",
+      "businessContext": "FINS_CODING_BLOCK"
+    },
+    {
+      "odataServiceKey": "FAR_PAYMENT_POST_SRV 0001",
+      "businessContext": "FINS_CODING_BLOCK"
+    }
+  ]
+}
