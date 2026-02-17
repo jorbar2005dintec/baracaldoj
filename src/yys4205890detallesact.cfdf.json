@@ -38,11 +38,19 @@
       "businessContext": "FAA_ASSET_MASTER_DATA"
     },
     {
+      "cdsViewName": "C_FIXEDASSETTP",
+      "businessContext": "FAA_ASSET_MASTER_DATA"
+    },
+    {
       "cdsViewName": "I_ASSETTP",
       "businessContext": "FAA_ASSET_MASTER_DATA"
     },
     {
       "cdsViewName": "I_FIXEDASSET",
+      "businessContext": "FAA_ASSET_MASTER_DATA"
+    },
+    {
+      "cdsViewName": "R_FIXEDASSETTP",
       "businessContext": "FAA_ASSET_MASTER_DATA"
     }
   ],
